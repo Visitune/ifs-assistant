@@ -36,7 +36,7 @@ class RAGEngine:
         # Charger le modèle d'embedding
         self.model = SentenceTransformer(model_name)
 
-    def retrieve(self, query: str, req_number: Optional[str] = None, top_k: int = 5) -> Dict[str, Any]:
+    def retrieve(self, query: str, req_number: Optional[str] = None, top_k: int = 8) -> Dict[str, Any]:
         """
         Recherche sémantique et contextuelle.
         """
@@ -47,22 +47,26 @@ class RAGEngine:
         # 1. Identifier l'exigence
         matched_req = None
         
-        # Regex pour détecter un numéro d'exigence dans le texte (ex: 2.3.9)
-        regex_req = r"(\d+\.\d+(?:\.\d+)?)"
+        # Regex pour détecter un numéro d'exigence dans le texte (ex: 2.3.9 ou 4.2.1.5)
+        regex_req = r"(\d+\.\d+(?:\.\d+)?(?:\.\d+)?)"
         found_nums = re.findall(regex_req, query)
         
         if req_number:
             matched_req = self.ifs_requirements.get(req_number)
         elif found_nums:
-            matched_req = self.ifs_requirements.get(found_nums[0])
-            req_number = found_nums[0]
+            # Essayer les numéros trouvés dans l'ordre
+            for num in found_nums:
+                if num in self.ifs_requirements:
+                    matched_req = self.ifs_requirements.get(num)
+                    req_number = num
+                    break
             
         # Si toujours pas d'exigence, chercher dans la collection ifs_requirements
         if not matched_req:
             try:
                 res_ifs = self.ifs_collection.query(
                     query_embeddings=[query_vector],
-                    n_results=1
+                    n_results=2 # Augmenter pour plus de précision si le premier n'est pas bon
                 )
                 if res_ifs['metadatas'] and res_ifs['metadatas'][0]:
                     req_num = res_ifs['metadatas'][0][0]['req_number']
@@ -70,9 +74,10 @@ class RAGEngine:
                     req_number = req_num
             except Exception as e:
                 print(f"Erreur lors de la requête ifs_collection: {e}")
-                # Fallback: On peut essayer de chercher par mot clé dans les titres si besoin
                 pass
 
+        # ... (le reste de la méthode retrieve reste identique pour la partie CSV)
+        
         # 2. Chercher des cas similaires (CSV)
         where_filter = {}
         if req_number:
@@ -93,7 +98,7 @@ class RAGEngine:
                         "document": res_csv['documents'][0][i]
                     })
             
-            # Fallback : si filtré vide, chercher sans le filtre d'exigence (tout le référentiel)
+            # Fallback : si filtré vide, chercher sans le filtre d'exigence
             if not similar_cases and req_number:
                 res_csv_any = self.csv_collection.query(
                     query_embeddings=[query_vector],
@@ -108,7 +113,7 @@ class RAGEngine:
         except Exception as e:
             print(f"Erreur lors de la requête csv_collection: {e}")
 
-        # 3. Calculer les statistiques (sur la base de tous les cas du même numéro)
+        # 3. Calculer les statistiques
         total_cases = 0
         ko_count = 0
         major_count = 0
@@ -142,11 +147,11 @@ class RAGEngine:
 
     def build_prompt(self, query: str, context: Dict[str, Any]) -> str:
         """
-        Construit le prompt final selon le template spécifié.
+        Construit le prompt final avec des contraintes strictes anti-hallucination.
         """
-        req_num = context.get("req_number", "Inconnu")
+        req_num = context.get("req_number", "NON IDENTIFIÉ")
         req_data = context.get("matched_req") or {}
-        req_text = req_data.get("texte", "Non disponible")
+        req_text = req_data.get("texte", "Le texte de cette exigence n'est pas disponible dans le contexte.")
         
         onglets = req_data.get("onglets") or {}
         guide_bp = onglets.get("bonnesPratiques", "Non disponible")
@@ -165,7 +170,12 @@ class RAGEngine:
         if not similar_formatted:
             similar_formatted = "Aucun cas historique précis trouvé dans la base pour ce numéro."
 
-        prompt_template = f"""Tu es un expert auditeur IFS Food v8 avec 15 ans d'expérience dans l'industrie alimentaire européenne. Tu assistes des auditeurs dans la qualification des non-conformités selon le référentiel IFS Food v8.
+        prompt_template = f"""Tu es un expert auditeur IFS Food v8 avec 15 ans d'expérience. Tu assistes des auditeurs dans la qualification des non-conformités.
+
+CONSIGNE CRITIQUE : 
+1. NE CITE JAMAIS une exigence qui n'est pas explicitement fournie ci-dessous. 
+2. Si l'exigence fournie est {req_num}, n'invente pas d'autres numéros comme 3.2.1 ou 4.2.1 sauf s'ils sont dans le texte fourni.
+3. Basse ton analyse uniquement sur les faits et le référentiel ci-après.
 
 RÉFÉRENTIEL DISPONIBLE :
 Exigence {req_num} : {req_text}
@@ -178,33 +188,32 @@ Exemples de KO : {guide_ko}
 HISTORIQUE RÉEL DE SUSPENSIONS (base IFS) :
 {similar_formatted}
 
-STATISTIQUES SUR CETTE EXIGENCE :
+STATISTIQUES SUR CETTE EXIGENCE {req_num} :
 - {stats.get('total_cases', 0)} suspensions réelles référencées
 - {stats.get('ko_rate', 0)}% classées KO / {stats.get('major_rate', 0)}% classées Majeur
 
 ---
 RÈGLES DE RÉPONSE :
-Tu dois obligatoirement structurer ta réponse ainsi :
+Structure obligatoirement ainsi :
 
 **VERDICT** : [KO / MAJEUR / NC CLASSIQUE / INSUFFISANT POUR CONCLURE]
 
-**JUSTIFICATION IFS** : (référence exacte au texte de l'exigence et/ou du guide)
+**JUSTIFICATION IFS** : (Référence précise à l'exigence {req_num} et aux points du guide fournis)
 
-**ÉLÉMENTS DÉTERMINANTS** : (ce qui dans la situation décrite oriente vers ce verdict)
+**ÉLÉMENTS DÉTERMINANTS** : (Ce qui dans la situation oriente vers ce verdict)
 
-**POINTS À VÉRIFIER** : (questions complémentaires que l'auditeur devrait explorer)
+**POINTS À VÉRIFIER** : (Questions complémentaires pour l'auditeur)
 
-**CAS SIMILAIRES RÉFÉRENCES** : (1-3 exemples issus de la base, avec date et pays)
+**CAS SIMILAIRES RÉFÉRENCES** : (Exemples issus de l'historique fourni)
 
 ---
 RÈGLES MÉTIER :
-- Un KO entraîne la suspension immédiate du certificat
-- Un Majeur = plus de 20% de points déduits sur le chapitre concerné
-- En cas de doute entre Majeur et KO, tu dois l'indiquer explicitement
-- Tu ne te substitues PAS au jugement de l'auditeur certifié
-- Si la description est insuffisante, demande des précisions plutôt que de conclure
+- Un KO entraîne la suspension immédiate du certificat.
+- Un Majeur = plus de 20% de points déduits sur le chapitre.
+- Si doute entre Majeur et KO, l'indiquer explicitement.
+- Si le numéro d'exigence identifié ({req_num}) te semble totalement hors sujet par rapport à la situation, indique-le en **VERDICT** mais propose l'analyse la plus proche possible.
 
-DISCLAIMER (toujours inclure en fin de réponse) :
-⚠️ Cet avis est fourni à titre d'assistance uniquement. La décision finale appartient à l'auditeur certifié IFS, conformément au référentiel IFS Food v8 en vigueur et aux règles de son organisme de certification.
+DISCLAIMER :
+⚠️ Cet avis est fourni à titre d'assistance uniquement. La décision finale appartient à l'auditeur certifié IFS.
 """
         return prompt_template

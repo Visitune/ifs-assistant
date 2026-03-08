@@ -38,10 +38,23 @@ ko_numbers = set()
 for chapter in ifs_data:
     for sous_section in chapter.get("sous_sections", []):
         for req in sous_section.get("exigences", []):
-            numero = req["numero"].replace("*", "")  # Enlever le * des KO
-            ifs_requirements[numero] = req
-            if req.get("estKO", False):
-                ko_numbers.add(numero)
+            numero = req["numero"].replace("*", "").strip()
+            # Supprimer les préfixes comme "KO N° 9 " ou "KO N° 5 "
+            numero = re.sub(r"KO N° \d+\s+", "", numero)
+            
+            if numero in ifs_requirements:
+                # Collision detected: append text and other relevant fields
+                existing = ifs_requirements[numero]
+                existing["texte"] += "\n" + req.get("texte", "")
+                # Merge onglets if necessary
+                if "onglets" in req:
+                    for k, v in req["onglets"].items():
+                        if v:
+                            existing["onglets"][k] = existing["onglets"].get(k, "") + "\n" + v
+            else:
+                ifs_requirements[numero] = req
+                if req.get("estKO", False):
+                    ko_numbers.add(numero)
 
 print(f"  -> {len(ifs_requirements)} exigences IFS chargees")
 print(f"  -> {len(ko_numbers)} KO identifies")
@@ -77,8 +90,8 @@ def parse_lock_reason(lock_reason, ifs_numbers):
     if any(k in text_lower for k in [" ko ", " ko.", " ko,", "(ko)", " d ", " d.", " d,", " d)", " d "]):
         global_severity = "KO"
     
-    # 2. Chercher TOUS les numéros d'exigence (X.Y.Z ou X.Y)
-    found_nums = re.findall(r"(\d+\.\d+(?:\.\d+)?)", text)
+    # 2. Chercher TOUS les numéros d'exigence (X.Y.Z.W, X.Y.Z ou X.Y)
+    found_nums = re.findall(r"(\d+\.\d+(?:\.\d+)?(?:\.\d+)?)", text)
     valid_nums = [n for n in set(found_nums) if n in ifs_numbers]
     
     if not valid_nums:
