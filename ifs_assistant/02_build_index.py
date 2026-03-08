@@ -85,7 +85,9 @@ for i, doc in enumerate(csv_docs):
         "ko_flag": doc.get("ko_flag", False),
         "source": "csv",
         "supplier": doc.get("supplier", ""),
-        "country": doc.get("country", "")
+        "country": doc.get("country", ""),
+        "lock_date": doc.get("lock_date", "N/A"),
+        "product_scope": doc.get("product_scope", "")
     })
     csv_documents.append(doc.get("embed_text", ""))
 

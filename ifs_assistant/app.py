@@ -168,7 +168,9 @@ if analyze_btn:
                     st.write("📂 **Exemples de cas réels**")
                     for case in context['similar_cases']:
                         meta = case['metadata']
-                        with st.expander(f"Cas {meta['severity']} - {meta['country']} ({meta['lock_date']})"):
+                        # Sécurité : utiliser .get() pour éviter KeyError si les métadonnées sont absentes
+                        label = f"Cas {meta.get('severity', 'NC')} - {meta.get('country', 'N/A')} ({meta.get('lock_date', 'N/A')})"
+                        with st.expander(label):
                             st.write(case['document'])
                             
             except Exception as e:
