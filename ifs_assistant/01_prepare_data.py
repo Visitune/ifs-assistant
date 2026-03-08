@@ -63,80 +63,48 @@ print("\n=== Étape 2: Parsing du Lock reason ===")
 def parse_lock_reason(lock_reason, ifs_numbers):
     """
     Parse le champ Lock reason pour extraire les exigences.
-    Retourne une liste de dict: {req_number, severity, nc_text}
+    Version améliorée : recherche exhaustive des numéros et sévérités.
     """
     if pd.isna(lock_reason):
         return []
     
     text = str(lock_reason)
+    text_lower = text.lower()
     results = []
     
-    # Pattern principal: X.Y.Z avec différentes variantes de sévérité
-    # Capture: numéro d'exigence + sévérité optionnelle + texte
-    patterns = [
-        # 3.2.10 KO N°3: texte
-        # 4.13.4 – Major - texte
-        # 5.11.3 - KO - texte
-        r"(\d+\.\d+(?:\.\d+)?)\s*[-–—]?\s*(KO|Major|Mayor|NC|D)\s*(?:N[°o]?\s*\d+)?[:\-\s]+(.*?)(?=\n\s*\d+\.|$)",
-        # 3.2.10 (KO) texte
-        # 4.13.4 (Major) texte
-        r"(\d+\.\d+(?:\.\d+)?)\s*\((KO|Major|Mayor|NC|D)\)\s*(.*?)(?=\n\s*\d+\.|$)",
-        # 3.2.10 Major: texte (sans tiret)
-        r"(\d+\.\d+(?:\.\d+)?)\s+(KO|Major|Mayor|NC|D)[:\s]+(.*?)(?=\n\s*\d+\.|$)",
-    ]
+    # 1. Déterminer la sévérité globale (fallback)
+    global_severity = "Major"
+    if any(k in text_lower for k in [" ko ", " ko.", " ko,", "(ko)", " d ", " d.", " d,", " d)", " d "]):
+        global_severity = "KO"
     
-    # Essayer chaque pattern
-    for pattern in patterns:
-        matches = re.findall(pattern, text, re.IGNORECASE | re.DOTALL)
-        for m in matches:
-            req_num = m[0].strip()
-            severity_raw = m[1].strip() if len(m) > 1 else ""
-            nc_text = m[2].strip() if len(m) > 2 else ""
-            
-            # Normaliser la severite
-            severity = severity_raw.upper()  # Tout en majuscules
-            if severity in ["MAYOR"]:
-                severity = "Major"  # Typo espagnol
-            elif severity == "D":
-                severity = "KO"  # D = KO
-            elif severity == "NC":
-                severity = "Major"  # NC traite comme Major
-            else:
-                severity = severity.capitalize()  # KO, Major
-            
-            # Vérifier que c'est une exigence IFS valide
-            if req_num in ifs_numbers:
-                # Nettoyer le texte
-                nc_text = re.sub(r"\s+", " ", nc_text).strip()
-                nc_text = nc_text[:2000]  # Limiter la longueur
-                
-                results.append({
-                    "req_number": req_num,
-                    "severity": severity,
-                    "nc_text": nc_text
-                })
+    # 2. Chercher TOUS les numéros d'exigence (X.Y.Z ou X.Y)
+    found_nums = re.findall(r"(\d+\.\d+(?:\.\d+)?)", text)
+    valid_nums = [n for n in set(found_nums) if n in ifs_numbers]
     
-    # Fallback: si aucun match, chercher juste les numéros d'exigence
-    # et utiliser le texte global comme nc_text
-    if not results:
-        # Chercher tous les numéros d'exigence dans le texte
-        all_nums = re.findall(r"(\d+\.\d+(?:\.\d+)?)", text)
-        for req_num in set(all_nums):  # Dedupliquer
-            if req_num in ifs_numbers:
-                # Chercher la severite dans le texte global
-                severity = "Major"  # Defaut
-                text_lower = text.lower()
-                if "ko" in text_lower or " d " in text_lower or " d." in text_lower or " d," in text_lower or text_lower.endswith(" d"):
-                    severity = "KO"
-                elif "major" in text_lower or "mayor" in text_lower:
-                    severity = "Major"
-                
-                results.append({
-                    "req_number": req_num,
-                    "severity": severity,
-                    "nc_text": text[:2000]
-                })
-                break  # Prendre seulement le premier pour eviter les doublons
+    if not valid_nums:
+        return []
+
+    # 3. Pour chaque numéro valide, essayer de trouver un bloc spécifique ou utiliser le texte global
+    for req_num in valid_nums:
+        # Chercher si ce numéro est suivi d'une sévérité spécifique à proximité (20 chars)
+        severity = global_severity
+        pattern_near = rf"{re.escape(req_num)}.*?(\bKO\b|\bMajor\b|\bMayor\b|\bNC\b|\bD\b)"
+        match_near = re.search(pattern_near, text, re.IGNORECASE | re.DOTALL)
+        
+        if match_near:
+            sev_raw = match_near.group(1).upper()
+            if sev_raw in ["KO", "D"]: severity = "KO"
+            else: severity = "Major"
+
+        # Tenter d'isoler le texte de la NC (jusqu'à la prochaine exigence ou fin)
+        # On prend une fenêtre large par défaut
+        nc_text = text.strip()
+        
+        results.append({
+            "req_number": req_num,
+            "severity": severity,
+            "nc_text": nc_text[:2000]
+        })
     
     return results
 
