@@ -132,10 +132,10 @@ class RAGEngine:
         Construit le prompt final selon le template spécifié.
         """
         req_num = context.get("req_number", "Inconnu")
-        req_data = context.get("matched_req", {})
+        req_data = context.get("matched_req") or {}
         req_text = req_data.get("texte", "Non disponible")
         
-        onglets = req_data.get("onglets", {})
+        onglets = req_data.get("onglets") or {}
         guide_bp = onglets.get("bonnesPratiques", "Non disponible")
         guide_ko = onglets.get("exemplesKO", "Non disponible")
         guide_major = onglets.get("exemplesNonConformites", "Non disponible")
