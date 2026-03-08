@@ -5,7 +5,8 @@ streamlit>=1.35.0
 
 # Embeddings et RAG
 sentence-transformers>=3.0.0
-chromadb>=0.5.0
+chromadb>=0.5.3
+pydantic>=2.0
 
 # LLM providers
 openai>=1.30.0          # Pour Groq + OpenRouter (API-compatible)
