@@ -7,6 +7,14 @@ Interface Streamlit pour l'Assistant Auditeur IFS Food v8.
 
 import streamlit as st
 from pathlib import Path
+import sys
+from pathlib import Path
+
+# Fix for Streamlit Cloud imports
+current_dir = Path(__file__).parent
+if str(current_dir) not in sys.path:
+    sys.path.append(str(current_dir))
+
 from rag_engine import RAGEngine
 from llm_providers import LLMProvider, get_available_models
 import os
