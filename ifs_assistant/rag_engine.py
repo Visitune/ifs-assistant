@@ -86,12 +86,25 @@ class RAGEngine:
                 where=where_filter if where_filter else None
             )
             
-            if res_csv['metadatas']:
+            if res_csv['metadatas'] and res_csv['metadatas'][0]:
                 for i in range(len(res_csv['metadatas'][0])):
                     similar_cases.append({
                         "metadata": res_csv['metadatas'][0][i],
                         "document": res_csv['documents'][0][i]
                     })
+            
+            # Fallback : si filtré vide, chercher sans le filtre d'exigence (tout le référentiel)
+            if not similar_cases and req_number:
+                res_csv_any = self.csv_collection.query(
+                    query_embeddings=[query_vector],
+                    n_results=top_k
+                )
+                if res_csv_any['metadatas'] and res_csv_any['metadatas'][0]:
+                    for i in range(len(res_csv_any['metadatas'][0])):
+                        similar_cases.append({
+                            "metadata": res_csv_any['metadatas'][0][i],
+                            "document": res_csv_any['documents'][0][i]
+                        })
         except Exception as e:
             print(f"Erreur lors de la requête csv_collection: {e}")
 

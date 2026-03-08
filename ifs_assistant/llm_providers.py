@@ -64,6 +64,7 @@ def get_available_models() -> Dict[str, List[str]]:
     """Retourne la liste des modèles par provider selon la spec."""
     return {
         "Groq": [
+            "meta-llama/llama-4-scout-17b-16e-instruct",
             "llama-3.3-70b-versatile",
             "llama-3.1-8b-instant",
             "mixtral-8x7b-32768"
@@ -75,6 +76,7 @@ def get_available_models() -> Dict[str, List[str]]:
             "gemini-1.5-flash"
         ],
         "OpenRouter": [
+            "openai/gpt-oss-120b",
             "meta-llama/llama-3.3-70b-instruct",
             "openai/gpt-4o-mini",
             "anthropic/claude-3.5-sonnet"
