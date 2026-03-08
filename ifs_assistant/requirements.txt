@@ -1,0 +1,20 @@
+# requirements.txt
+
+# Interface
+streamlit>=1.35.0
+
+# Embeddings et RAG
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+
+# LLM providers
+openai>=1.30.0          # Pour Groq + OpenRouter (API-compatible)
+google-generativeai>=0.8.0  # Pour Gemini
+
+# Data
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Utilitaires
+python-dotenv>=1.0.0
+tqdm>=4.66.0
