@@ -16,8 +16,10 @@ class RAGEngine:
     def __init__(self, chroma_path: str, json_path: str, model_name: str = "intfloat/multilingual-e5-large"):
         # Initialiser ChromaDB Client Persistant
         self.client = chromadb.PersistentClient(path=chroma_path)
-        self.csv_collection = self.client.get_collection("ifs_suspensions")
-        self.ifs_collection = self.client.get_collection("ifs_requirements")
+        
+        # Utiliser get_or_create_collection pour plus de résilience
+        self.csv_collection = self.client.get_or_create_collection("ifs_suspensions")
+        self.ifs_collection = self.client.get_or_create_collection("ifs_requirements")
         
         # Charger le JSON IFS original pour les données complètes
         with open(json_path, "r", encoding="utf-8") as f:
@@ -57,43 +59,59 @@ class RAGEngine:
             
         # Si toujours pas d'exigence, chercher dans la collection ifs_requirements
         if not matched_req:
-            res_ifs = self.ifs_collection.query(
-                query_embeddings=[query_vector],
-                n_results=1
-            )
-            if res_ifs['metadatas'] and res_ifs['metadatas'][0]:
-                req_num = res_ifs['metadatas'][0][0]['req_number']
-                matched_req = self.ifs_requirements.get(req_num)
-                req_number = req_num
+            try:
+                res_ifs = self.ifs_collection.query(
+                    query_embeddings=[query_vector],
+                    n_results=1
+                )
+                if res_ifs['metadatas'] and res_ifs['metadatas'][0]:
+                    req_num = res_ifs['metadatas'][0][0]['req_number']
+                    matched_req = self.ifs_requirements.get(req_num)
+                    req_number = req_num
+            except Exception as e:
+                print(f"Erreur lors de la requête ifs_collection: {e}")
+                # Fallback: On peut essayer de chercher par mot clé dans les titres si besoin
+                pass
 
         # 2. Chercher des cas similaires (CSV)
         where_filter = {}
         if req_number:
             where_filter = {"req_number": req_number}
             
-        res_csv = self.csv_collection.query(
-            query_embeddings=[query_vector],
-            n_results=top_k,
-            where=where_filter if where_filter else None
-        )
-        
         similar_cases = []
-        if res_csv['metadatas']:
-            for i in range(len(res_csv['metadatas'][0])):
-                similar_cases.append({
-                    "metadata": res_csv['metadatas'][0][i],
-                    "document": res_csv['documents'][0][i]
-                })
+        try:
+            res_csv = self.csv_collection.query(
+                query_embeddings=[query_vector],
+                n_results=top_k,
+                where=where_filter if where_filter else None
+            )
+            
+            if res_csv['metadatas']:
+                for i in range(len(res_csv['metadatas'][0])):
+                    similar_cases.append({
+                        "metadata": res_csv['metadatas'][0][i],
+                        "document": res_csv['documents'][0][i]
+                    })
+        except Exception as e:
+            print(f"Erreur lors de la requête csv_collection: {e}")
 
         # 3. Calculer les statistiques (sur la base de tous les cas du même numéro)
-        all_cases_meta = self.csv_collection.get(
-            where={"req_number": req_number} if req_number else None,
-            include=["metadatas"]
-        )['metadatas']
+        total_cases = 0
+        ko_count = 0
+        major_count = 0
         
-        total_cases = len(all_cases_meta)
-        ko_count = sum(1 for m in all_cases_meta if m.get('ko_flag', False) or m.get('severity') == 'KO')
-        major_count = sum(1 for m in all_cases_meta if m.get('severity') == 'Major')
+        try:
+            res_meta = self.csv_collection.get(
+                where={"req_number": req_number} if req_number else None,
+                include=["metadatas"]
+            )
+            all_cases_meta = res_meta['metadatas']
+            
+            total_cases = len(all_cases_meta)
+            ko_count = sum(1 for m in all_cases_meta if m.get('ko_flag', False) or m.get('severity') == 'KO')
+            major_count = sum(1 for m in all_cases_meta if m.get('severity') == 'Major')
+        except Exception as e:
+            print(f"Erreur lors de la récupération des stats: {e}")
         
         ko_rate = round((ko_count / total_cases * 100), 1) if total_cases > 0 else 0
         major_rate = round((major_count / total_cases * 100), 1) if total_cases > 0 else 0
