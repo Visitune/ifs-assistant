@@ -104,6 +104,12 @@ with tabs[1]:
 
     if os.path.exists(REVIEW_PATH):
         df_review = pd.read_csv(REVIEW_PATH)
+        # Nettoyage des types pour st.data_editor
+        df_review["Corrected_Requirement"] = df_review["Corrected_Requirement"].fillna("").astype(str)
+        df_review["Lock_Reason"] = df_review["Lock_Reason"].fillna("").astype(str)
+        df_review["Extracted"] = df_review["Extracted"].fillna("").astype(str)
+        df_review["Supplier"] = df_review["Supplier"].fillna("").astype(str)
+        df_review["Status"] = df_review["Status"].fillna("UNKNOWN").astype(str)
         
         if suggest_btn:
             if not api_key:
