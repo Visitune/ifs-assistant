@@ -19,13 +19,13 @@
 4,Patisserie Jack Heesen B.V.,"During the IOC audit completed on site on 24-April-2025 the following Major NCs and KO were identified:
   
  5.11.3 - KO - During the onsite check the following deviations were seen that were scored previous audit a D.
- 3.2.1 At two places (Maintenance chart and in desk production line production area) packaging containing food supplements and candy were found. Due to no seen use and or any traces in the near vicinity of open products no higher deviation. During the onsite check ice-creams were s","4.10.1, 4.13.4, 3.2.1, 5.11.3, 4.10.2",MULTIPLE,
+ 3.2.1 At two places (Maintenance chart and in desk production line production area) packaging containing food supplements and candy were found. Due to no seen use and or any traces in the near vicinity of open products no higher deviation. During the onsite check ice-creams were s","4.13.4, 4.10.1, 3.2.1, 4.10.2, 5.11.3",MULTIPLE,
 5,Meisters Wurst- und Fleischwaren Bautzen GmbH,Business operations have been discontinued.,,MISSING,
 6,"Vitakraft pet care GmbH & Co. KG, Betriebstätte Bierden","KO against Req. 4.18.1
  During an IFS Integrity on-site check a KO non-conformity had been raised due to the following reason. In the area where the sauce was made, there was a pallet with wheat flour T812, Vitakraft 25 kg with a best-before date of 08.10.2025 (manufacturer's label on the bag). The internal batch number is 202604 D14, material number 100805. The batch label for the batch used according to SAP was hanging on the wall. Material 100805, production date 21.04.2025, goods receipt dat",4.18.1,OK,
 7,FRANCIA MOZZARELLA GmbH,"3.2.2 The hygiene requirements for entering production were not met by ONE employee. 
  4.2.1.3 There are no sufficiently detailed specifications for rework.
- 4.18.1 Containers with alleged rework were not labelled. The identification of product batches and their relation to batches of raw materials was not possible.","4.18.1, 4.2.1.3, 3.2.2",MULTIPLE,
+ 4.18.1 Containers with alleged rework were not labelled. The identification of product batches and their relation to batches of raw materials was not possible.","4.2.1.3, 3.2.2, 4.18.1",MULTIPLE,
 8,ADM WILD Nauen GmbH,"1.2.1 As required, management must ensure that
  employees are aware of their responsibilities regarding
  food safety and product quality and that
@@ -34,7 +34,7 @@
  The significant deficiencies identified during the site visit*:
  -for example numerous personnel hygiene facilities were not in
  sufficiently functional condition or personnel hygiene
- requirements were not observed in individua","1.2.1, 4.18.1, 2.3.6.1",MULTIPLE,
+ requirements were not observed in individua","4.18.1, 1.2.1, 2.3.6.1",MULTIPLE,
 9,Buckl Geflügel GmbH & Co. KG,"Authority order: Prohibition of the slaughter of poultry due to animal welfare violations by employees. Production was stopped.
  The certificate can be reinstated if the competent authority issues the approval again.",,MISSING,
 10,LÁCTEOS CAPRINOS S.A.,"During the re-certification audit, a major non-conformity has been detected in requirement 5.4.1: Against the indications of article 13 of RD 1801/2008, the scale used for the control of 100g. products does not comply with the acceptance criteria.
@@ -61,7 +61,7 @@
 21,Bergland Food GmbH,"KO in 1.2.1
  Based on the samples reviewed during the audit, the food safety and product quality management system is not fully implemented, maintained and reviewed. Employees could not demonstrate in all areas that they are aware of their responsibilities.
  The following examples:
- 1) Receipt of frozen commercial goods: The unloading of the delivering truck was carried out on the first day of the audit without incoming goods inspection / checking the incoming goods temperature (CP 1). The respo","1.2.1, 4.12.2, 5.11.3",MULTIPLE,
+ 1) Receipt of frozen commercial goods: The unloading of the delivering truck was carried out on the first day of the audit without incoming goods inspection / checking the incoming goods temperature (CP 1). The respo","1.2.1, 5.11.3, 4.12.2",MULTIPLE,
 23,CHIOS GARDENS JUICE INDUSTRY SA,The production activity of this company has been stopped.,,MISSING,
 24,Casearia Bresciana Ca.Bre - Società Cooperativa Agricola Sca,"Following the certification visit on 12,13,14/05/2025, and following a preliminary technical review, the certificate is suspended due to Major non-conformity
  In detail § 4.13.1
@@ -93,7 +93,7 @@
  Reason: During the announced certification audit conducted on 12-13.05.2025 issued KO and Major
  
  КО on requirement 5.1.1:
- The planned audit for 2025 on 24-25.04.25 (see Order 88/14.04.25) was not performed. Verification and internal audit program for planning verification activities for each year are required by the compa","2.1.2.1, 5.1.1",MULTIPLE,
+ The planned audit for 2025 on 24-25.04.25 (see Order 88/14.04.25) was not performed. Verification and internal audit program for planning verification activities for each year are required by the compa","5.1.1, 2.1.2.1",MULTIPLE,
 36,"Kirchner, Fischer & Co. GmbH","Major Nonconformity 4.5.2:
  As part of traceability check, random checks were carried out on the raw materials used to ensure that packaging containing plastic that comes into direct contact with food was compliant. These checks revealed that no declarations of conformity were available for the packaging, either for direct imports or for purchases from within the EU (examples: Import: Item 680020 Rooibos Superior Long Cut, Import: Item 680010 Honeybush Corse Cut kbA/Organic, Import: Item 803253 ","4.5.2, 4.10.2",MULTIPLE,
 37,ECO BASICS BIO S.L.,"During the audit carried out in 7 May 2025 a major NC was detected on: 
@@ -128,7 +128,7 @@
  1. Requirement 2.3.9.1 – HACCP / CCPs 
  · CCP1: Use of records (SOP07-R8, SOP07- R9) not included in the HACCP plan. 
  · CCP3: Visual inspection (light screen) is not effective in detecting foreign bodies in non-translucent products. 
- · CCP4 and CCP5: Operators monitor but do not record ","4.9.1.1, 4.16.5, 5.1.2, 4.18.1, 4.10.2, 4.2.1.1",MULTIPLE,
+ · CCP4 and CCP5: Operators monitor but do not record ","4.18.1, 4.9.1.1, 4.16.5, 4.2.1.1, 4.10.2, 5.1.2",MULTIPLE,
 52,MADONNA INDUSTRIAL BAKERY S.R.L.,Cessation of activity at the plant located in Via Gandhi 36B – Modena (MO) and consequent transfer to a new site.,,MISSING,
 53,JAMONES EUTIQUIO S.L.U.,"Mayor against requirement 4.13.2. It is observed during the audit that the company has serious deficiencies in the implementation of its pest control plan:
  During the plant inspection, it has been observed that the floor of the “Mantecado work area” is in a poor state to carry out operations with food products. The floor was found with the presence of worms, some of them alive, under the ham perches located in the back area of the work area. Some beetles have been observed as well.
@@ -139,11 +139,11 @@
  Records of CCP monitoring at the pasteurization stage are kept by computer (continuous recording). Auxiliary manual records regarding pasteurization according to the HACCP document of 24.05.2025 should be kept by controlling the temperature on the display (3 x pasteurized product tank) and controlling the pasteurization time by measuring with a stopwatch once a month). Additional manual records of pasteurization time control have not been documented since 04.2024, and there ",5.3.2,OK,
 60,SKC Consulting Kft,"During an IFS integrity audit (29 04 2025) , these deviations were found.
  KO IFS requirement 4.18.1: The company did not keep records of how many pieces of shrimp skewers and salmon fillets with green spices were treated or that these products were treated at all. Full traceability of the treated products (type and quantity) was not ensured.
- KO IFS requirement 2.3.9.1 There is no monitoring for weekends and public holidays when there is no production (temperature control of cold stores is defi","4.18.1, 1.1.2",MULTIPLE,
+ KO IFS requirement 2.3.9.1 There is no monitoring for weekends and public holidays when there is no production (temperature control of cold stores is defi","1.1.2, 4.18.1",MULTIPLE,
 61,"NEBOT LUCAS, SL B12379459","IFS STANDAR REFERENCE: 5.4.1 LEVEL: MAJOR
  The company conducts commercial transactions with suppliers and customers using the SC model platform scale with serial number 6202. In addition, it performs weight checks on end-of-line, net-labelled products using scales at the end of the packaging line. An ENAC calibration certificate is provided for two of the platform scales and an internal verification certificate is provided for the quality control scales.
  * ENAC calibration certificate number 0",5.4.1,OK,
-62,Przedsiębiorstwo Wielobranżowe Komplex Młyn Sp.z o.o.,"During the announced IFS recertification audit conducted on 25-26.04.2025, 1 KO non-conformity (4.12.1) and 2 MAJOR non-conformities (4.10.2; 4.13.2) were identified. The company signed the action plan presented by the auditor on 25.04.2025 and decided to discontinue the audit (by signing the discontinuation declaration). On 29.04.2025 the Certification Body sent the Company the action plan received from the auditor. Komplex Młyn has 4 weeks to send the complete action plan.","4.12.1, 4.13.2, 4.10.2",MULTIPLE,
+62,Przedsiębiorstwo Wielobranżowe Komplex Młyn Sp.z o.o.,"During the announced IFS recertification audit conducted on 25-26.04.2025, 1 KO non-conformity (4.12.1) and 2 MAJOR non-conformities (4.10.2; 4.13.2) were identified. The company signed the action plan presented by the auditor on 25.04.2025 and decided to discontinue the audit (by signing the discontinuation declaration). On 29.04.2025 the Certification Body sent the Company the action plan received from the auditor. Komplex Młyn has 4 weeks to send the complete action plan.","4.12.1, 4.10.2, 4.13.2",MULTIPLE,
 63,Bodega Comercial Vinícola del Sur S.L.,"The company added citric acid diluted in water at a dosage of 1g/L after the end of fermentation of the vinegar, as an acidity regulator, but citric acid it is not declared on the label as an ingredient according to EC Regulation 1169/2011.",,MISSING,
 66,Vegeland Società Agricola S.r.l. Pty Ktd,"The payment for the last IFS Food audit on April 7-8, 2025, was not done.",,MISSING,
 67,CONTIMAX S.A. oddział w Dąbrowie Chełmińskiej .,"NC – 2.3.9.4
@@ -158,7 +158,7 @@
  According to Regulation 853/4, ""Chapter VII ""Fresh fishery products, thawed unprocessed fishery products, and cooked and chilled products from crustace",2.3.9.4,OK,
 69,TRIOPACK GmbH,Discontinuance of business,,MISSING,
 70,GO-fresh GmbH,"2.3.6.1 Major:
- In the HACCP concept, the risk of excessive sulphite concentration is analyzed for fruit instead of vegetables and assessed at 1 x 3 = 3. Fruit has not been processed at this location since 2025. In this context, ""Testing the concentration/formulation pH < 4"" is specified for fruit. The pH value cannot be used to determine the sulphite concentration. The control of the immersion bath with ascorbic acid and sodium bisulfite, defined as an oPRP, is not currently mastered, and the t","4.3.2, 2.3.6.1",MULTIPLE,
+ In the HACCP concept, the risk of excessive sulphite concentration is analyzed for fruit instead of vegetables and assessed at 1 x 3 = 3. Fruit has not been processed at this location since 2025. In this context, ""Testing the concentration/formulation pH < 4"" is specified for fruit. The pH value cannot be used to determine the sulphite concentration. The control of the immersion bath with ascorbic acid and sodium bisulfite, defined as an oPRP, is not currently mastered, and the t","2.3.6.1, 4.3.2",MULTIPLE,
 72,Zanobeet S.L.,"A Major NC was raised during the IFS Integrity On-site Check on April 24, 2025.
  Description of the Major NC:
  Clause 4.13.2:
@@ -167,7 +167,7 @@
  -Presence of many rodent droppings in the machine used for sorting pumpkin. Not in use on the day of the IOC.
  - Presence of a lot of snails in the beetroot washing machine, floor of this area and walls of the pac",4.13.2,OK,
 73,HORTICULTORES EL TORCAL S.C.A.,"KO against requirement 1.2.1:
- During audit tour it has been observed the usage of packaging material (primary packaging material) printed with retailer’s brand (MARXX TXX) and legal identification of the retailer as broker (NEXX MARXXX) used in product not destined to the retailer identified in that packaging material. The material was being used in the product “Espárrago Verde” Size 6/10 Cat I, batch 001702) destined to several customer’s of the national market. The instructions and authorizat","3.2.2, 4.5.2, 1.2.1, 3.4.2, 5.11.3, 3.2.7, 4.10.2",MULTIPLE,
+ During audit tour it has been observed the usage of packaging material (primary packaging material) printed with retailer’s brand (MARXX TXX) and legal identification of the retailer as broker (NEXX MARXXX) used in product not destined to the retailer identified in that packaging material. The material was being used in the product “Espárrago Verde” Size 6/10 Cat I, batch 001702) destined to several customer’s of the national market. The instructions and authorizat","4.5.2, 1.2.1, 3.2.7, 3.2.2, 3.4.2, 4.10.2, 5.11.3",MULTIPLE,
 74,GOLSKI LT JSC,Certificate is held due to the lack of payment,,MISSING,
 76,SAREROM SRL,"During the renewal IFS Food audit on the 12.05.2025, a Major has been raised under req.4.13.1: Site premises an equipment do not allow prevention of pest entry and infestation: during the on site tour, seen pigeons up to the packaging of on site area where final products are open, together with pigeon droppings on some final products pallets and on the floor inside of final storage area.
  
@@ -175,7 +175,7 @@
 77,Wellbena Sp. z o.o.,No payment done,,MISSING,
 78,CHIAROLLA S.r.l.,"During the audit completed on site on 06/05/2025 the following Major NCs and KO were identified:
  3.2.2 KO: The HACCP/Quality Manager C.A. does not wear the clothing and headgear required by internal procedures during the tour of the production premises.. Also, presence of employee with false eyelashes detected in production premises, although company procedure POG1 Internal personnel rules ed. 0 rev. 1 of 2024/03/04 reports this prohibition. The employee is not directly involved in production.
-","4.12.1, 4.9.6.2, 3.2.2, 4.9.2.2, 4.9.3.1, 4.9.2.3, 4.16.5, 4.13.5, 2.3.5.1, 4.14.3, 5.11.3, 4.12.3, 4.10.2, 4.13.1",MULTIPLE,
+","4.14.3, 4.13.5, 4.12.3, 2.3.5.1, 3.2.2, 4.9.2.3, 4.9.3.1, 4.9.6.2, 4.16.5, 4.12.1, 4.13.1, 4.10.2, 5.11.3, 4.9.2.2",MULTIPLE,
 80,Sirignano s.r.l.,outstanding payments,,MISSING,
 81,SCHWAN SUGAR-FREE D.O.O.,The company decided to stop the certification and terminated the contract with our Certification Body.,,MISSING,
 82,Oerlemans Foods Waalwijk B.V. .,"During the audit completed on site on 20-21/05/2025 the following Major NCs and KO were identified:
@@ -186,10 +186,10 @@
  
  Indeed, the smokehouse was located in a building separate from the main site, which serves as a storage area for detergents, cardboard, packaging, and wooden pallets. This area conn",4.8.2,OK,
 84,"CANPIPORK, S.L.","KO Non-Conformity Req. 4.12.1
- It is evident that the procedures to prevent contamination by foreign bodies from the facilities are not properly implemented, as several non-compliances were observed in the cutting room and cold storage rooms, such as: In the cutting room, it is evident: Leak in the evaporator with constant dripping of water at the entry point of the carcasses to the cutting line, several hard plastic housings of lights above the cutting line half detached, with loss of integrity","4.12.1, 4.9.4.1",MULTIPLE,
+ It is evident that the procedures to prevent contamination by foreign bodies from the facilities are not properly implemented, as several non-compliances were observed in the cutting room and cold storage rooms, such as: In the cutting room, it is evident: Leak in the evaporator with constant dripping of water at the entry point of the carcasses to the cutting line, several hard plastic housings of lights above the cutting line half detached, with loss of integrity","4.9.4.1, 4.12.1",MULTIPLE,
 86,NS ESTATE SIA,"The audit of NS Estate SIA was conducted on 12-13-14-15-16 May 2025. The auditor found 2 KOs and 2 Major on the last day of the audit. During the review of the action plan and the audit report is reviewed by the TR total 2 KOs and 5 Major NCs are raised. 
  
- 1.2.1 KO N° 1: The senior management shall ensure that employees are aware of their responsibilities related to food safety and product quality and that mechanisms are implemented to monitor the effectiveness of their operation. Such mechani","4.13.2, 5.3.2, 4.3.2, 1.2.1, 5.1.2, 5.6.2, 5.11.4, 3.2.9, 5.6.1, 5.11.3, 4.12.3",MULTIPLE,
+ 1.2.1 KO N° 1: The senior management shall ensure that employees are aware of their responsibilities related to food safety and product quality and that mechanisms are implemented to monitor the effectiveness of their operation. Such mechani","1.2.1, 4.12.3, 4.3.2, 5.11.4, 3.2.9, 5.6.1, 5.3.2, 4.13.2, 5.6.2, 5.11.3, 5.1.2",MULTIPLE,
 89,SAGI S.R.L.,The certificate has been suspended because the company has not provided the requested clarifications regarding a change in the scope of certification for which Certiquality has received notification from the market.,,POTENTIAL_MISS,
 90,"ALFONSO GARCIA LÓPEZ, (PESCAMAR) S.A.","During the IOC audit completed on site on 19/05/2025 the following Major NC was identified:
  
@@ -209,20 +209,20 @@
 96,Chocolaterie Boulanger BV,"During the audit completed on site on 15-16/05/2025 the following Major NCs and KO were identified:
  4.17.4 Major: A greenish corrosion substance, identified as copper carbonate, was observed forming on chocolate residues around a brass alloy screw at the white chocolate line (Solich), brass alloy screw located above or near the chocolate tank, in contact with chocolate residues.
  
- 5.11.1 KO: During the external IFS audit on 14–15.05.2025, a high number of deviations were observed across key fo","5.11.1, 4.14.5, 5.2.1, 5.11.4, 4.17.4, 5.11.3, 4.10.2",MULTIPLE,
+ 5.11.1 KO: During the external IFS audit on 14–15.05.2025, a high number of deviations were observed across key fo","5.11.4, 4.10.2, 5.2.1, 5.11.1, 4.14.5, 4.17.4, 5.11.3",MULTIPLE,
 97,Bracigliano Salumi di Claudio Calvanese & C. s.r.l.,"During the IFS Integrity on-site check, carried out on 15/05/2025 by an auditor appointed by IFS, the following were found: 3 non-conformities classified as major and 1 KO.",,POTENTIAL_MISS,
 103,SOL PASTA & MORE SHPK,outstanding payments,,MISSING,
 104,Patisserie Jack Heesen B.V.,"During the IOC audit completed on site on 24-April-2025 the following Major NCs and KO were identified:
   
  5.11.3 - KO - During the onsite check the following deviations were seen that were scored previous audit a D.
- 3.2.1 At two places (Maintenance chart and in desk production line production area) packaging containing food supplements and candy were found. Due to no seen use and or any traces in the near vicinity of open products no higher deviation. During the onsite check ice-creams were s","4.10.1, 4.13.4, 3.2.1, 5.11.3, 4.10.2",MULTIPLE,
+ 3.2.1 At two places (Maintenance chart and in desk production line production area) packaging containing food supplements and candy were found. Due to no seen use and or any traces in the near vicinity of open products no higher deviation. During the onsite check ice-creams were s","4.13.4, 4.10.1, 3.2.1, 4.10.2, 5.11.3",MULTIPLE,
 105,Wback GmbH,"Requirement Chapter: 4.10.2 – Major
  Observation regarding the cleaning condition during the audit
  The cleaning condition at the time of the audit was unsatisfactory.
  Currently, a 14-day cleaning cycle is carried out on weekends by an external service provider. The last cleaning day was May 17, 2025; the audit began on May 21, 2025.
  In addition, each shift carries out a daily cleaning, which is documented in the cleaning protocol FB58/Rev2 dated November 17, 2017.
  Deviations:
- • Dough residu","4.12.2, 4.10.2",MULTIPLE,
+ • Dough residu","4.10.2, 4.12.2",MULTIPLE,
 106,TRENKER JOHANN SAS,the company decided to renounce,,MISSING,
 107,DAVA Foods Denmark A/S,"During the audit completed on site on 19-22/05/2025 the following Major NC was identified:
  Major deviation - clause 4.3.2
@@ -261,7 +261,7 @@
  
  4.12.2 MAJOR NC Procedures to prevent foreign bodies contamination are not properly implemented. During the audit, the following observations were made: 
  -In the ham chamber, a trolley with hams awaiting reprocessing was observed; they were dirty with grease from the equipment, in direct contact with the floor and in direct contact with a trolley wheel that was in a poor state of cleanliness. 
- -In the proce","5.11.4, 4.12.2, 5.4.1",MULTIPLE,
+ -In the proce","5.11.4, 5.4.1, 4.12.2",MULTIPLE,
 127,BODEGAS MANZANOS S.L.U.,"A major non-conformity has been detected in requirement 4.3.2: In the ingredient information of the QR code of the product B.U rosé lot L0A3250228, the stabilizer (K polyaspartate) has not been included in accordance with the provisions of Regulation (EU) 2021/2117. The company states that it is not a fixed ingredient in all bottlings, but in this case it was dosed (according to bottling order and control records).",4.3.2,OK,
 129,BO DE DEBÒ SL,"During the audit performed on 26th May 2025 to 28th May 202, it was detected a Major non-conformity under the requirement 4.3.2.
  
@@ -326,7 +326,7 @@
 150,Marblo NV,"KO - 2.3.9.1: During the audit of the hot kitchen, where the cooking of the various products takes place, it was found that: of the moussaka produced, there were already 4 carts in rapid cooling, with each cart going into its own individual oven, only two records had been noted of the measured core temperature of the product. No measurements had been made of the remaining two carts. Cooking is a CCP where >70°C core temperature should be achieved as CCP monitoring of the cooking process. Visual ",,MISSING,
 151,PAPAS ARGENTE S.A.U.,"In the audit carried out on June 3 & 4, 2025, 2 Major NCs were detected against the following requirements:
  NCM1 - requirement 1.2.6
- During the review of customer complaints, the company records a report from customer Cxxxxxxxx in 2024 with registration 24043 affected batch 2803, due to acrylamide values of 2920 µg/kg when the legal limit for chips is 750 µg/kg. A record of the complaint with an analysis of the cause (excess temperature during frying) is shown and the company reviews the docum","1.2.6, 5.11.1, 2.3.6.1, 2.1.2.1, 4.10.5, 4.9.6.2",MULTIPLE,
+ During the review of customer complaints, the company records a report from customer Cxxxxxxxx in 2024 with registration 24043 affected batch 2803, due to acrylamide values of 2920 µg/kg when the legal limit for chips is 750 µg/kg. A record of the complaint with an analysis of the cause (excess temperature during frying) is shown and the company reviews the docum","1.2.6, 5.11.1, 4.9.6.2, 4.10.5, 2.1.2.1, 2.3.6.1",MULTIPLE,
 152,GONAS UAB,Certificate is locked due to the lack of payment,,MISSING,
 154,Pure & Fit Sp z o.o. Sp. K.,The company is in liquidation.,,MISSING,
 155,Fruitland Sp. z o.o.,Client informed on 26.05.2025 that he doesn't want to continue IFS certification.,,MISSING,
@@ -334,7 +334,7 @@
 159,Safiro Nutrition Sp. z o.o.,No payment done for the audit.,,MISSING,
 160,Vivid Foods Lda,"During the IFS Food audit carried out between June 02 and 04,2025, the following non-conformities were identified:
  Req. 2.3.9.1 (Deviation D in KO): The metal detectors are not tested for the operation of the rejector. The rejector on line 9 was not aligned for the product in question (tenderloins in vacuum) and did not reject the product tested during the audit tests. Alignments were done and the system start working.
- Req. 4.14.2 (Major): During the site visit (and SAGE system) it was evidenc","4.14.2, 4.17.4, 4.16.2, 5.11.3, 4.10.2",MULTIPLE,
+ Req. 4.14.2 (Major): During the site visit (and SAGE system) it was evidenc","4.14.2, 4.16.2, 4.10.2, 5.11.3, 4.17.4",MULTIPLE,
 164,FORMAGGERIA TOSCANA SRL,"During the renewal audit finished on 30.05.2025, the following NCs has been raised:
  Major NC under 1.1.1: during the production inspection, staff behaviors were detected that demonstrated an insufficient food safety culture (evidences: staff not wearing disposable protective clothing when entering and exiting the high-care area; staff crossing the high-care area from the refreshment area without having followed the hand sanitization procedures following food consumption; external door of the hi","1.1.1, 4.3.2",MULTIPLE,
 165,"Agricola Santa Eulalia, S.L .","A Major non-conformity was raised during the audit on June 2-4, 2025.
@@ -345,7 +345,7 @@
  As part of the audit, it was found that individual batches of pre-packages were produced and placed on the market on the ICA 3 line that did not reach the nominal filling quantity on average. This mainly concerns the filling batch 00151- 1130101 of the article 29086086207 dated 12 March 2025. 146,645 small packs of oat flakes were filled with a nominal filling quantity of 500g. The average value achieved is 498.69 and is therefore 1.31g below the nominal quantity. This represents a legal",5.5.2,OK,
 168,Ahlener Schinken-Center GmbH & Co. KG.,The site was closed on 31/05/2025,,MISSING,
 169,Eierhof Hennes GmbH,"KO vs. 4.1.3: The implementation of the KAT standard is part of the customer specifications. The currently valid version of the KAT standard for dyeing plants (2025.01, point 6.2.2) requires quarterly analyses of the process hygiene criteria of Regulation 2073/2005, Annex I, Chapter II, 2.3.1 on Enterobacteriaceae. There are quarterly tests for Enterobacteriaceae, but not with the sample size of 5 required by the regulation; only one sample is analysed. 
- This is a repeat deviation from 2024 wit","5.6.1, 2.3.4.1, 5.11.4, 5.6.2, 4.11.2, 5.11.3, 4.1.3",MULTIPLE,
+ This is a repeat deviation from 2024 wit","5.11.3, 4.1.3, 2.3.4.1, 5.11.4, 5.6.1, 4.11.2, 5.6.2",MULTIPLE,
 170,Patisserie Jack Heesen B.V.,"During the audit completed on site on 12-13/05/2025 the following Major NCs and KO were identified:
  4.13.4 During the audit (12–13 June 2025), active signs of pest presence were observed in multiple areas:
  Additional moth activity in the raw material storage area and weighing area
@@ -372,12 +372,12 @@
  Description of the KOs:
  Clause 4.1.3:
  “Customer agreements are not respected. For the customer Cxxxd CPQ, the manufacturers to be processed must be on a list approved by the customer and listed on the label, and must be GlobalGAP certified. During the on-site audit, for example:
- 1 . On 10-06-2025: The packaging of Asparagus for the client Cxxxd CPQ presented on the label the reference to producer A10 (GlobalGap farm GGN 4","4.5.3, 4.3.2, 5.4.1, 4.18.1, 4.1.3",MULTIPLE,
+ 1 . On 10-06-2025: The packaging of Asparagus for the client Cxxxd CPQ presented on the label the reference to producer A10 (GlobalGap farm GGN 4","4.1.3, 4.3.2, 4.18.1, 5.4.1, 4.5.3",MULTIPLE,
 179,Zerbinati s.r.l,"4 KOs & 2 Major NCs were raised during the IFS Integrity On-site Check on June 16, 2025.
  Description of the KOs:
  Clause 4.18.1:
  “In the traceability test carried out on Valeriana 120 g customer branded C, lot B69230700 expiry date 10.06.2025, it emerged that the link between finished product and raw material supplier is traced by the operator on a sheet attached to the pallet, which is kept with the traceability sheets. The following discrepancies emerged:
- - On all 7 sheets attached to the p","4.9.9.2, 4.18.1, 5.11.3, 4.19.2, 4.1.3",MULTIPLE,
+ - On all 7 sheets attached to the p","4.1.3, 4.9.9.2, 4.19.2, 4.18.1, 5.11.3",MULTIPLE,
 181,Seafood Parlevliet Tholen B.V.,"During the announced audit with last day 17-06-2025 a Major non-conformity was noted at clause 4.9.9.1: Water analysis results are exceeding requirements: results of 15-5-2025: (1) process water in smokery: TPC 22°C = 700 cfu/ml, Coliforms = 9 cfu/100ml (legislative requirement Coliforms not detectable in 100ml) and (2) water hygiene sluice TPC 22 °C = 310 cfu/ml.",4.9.9.1,OK,
 182,O.P. ESPERIDIO S.c.a.r.l.,The contract with Certiquality has been formally terminated at the company’s request.,,POTENTIAL_MISS,
 183,NATURPUGLIA s.r.l.,The suspension was decided due to the failure to pay invoices relating to activities already carried out by Certiquality S.r.l.,,MISSING,
@@ -386,7 +386,7 @@
  Major Non-conformity (requirement 4.5.3): 
  Packaging of end products is performed either in downstairs or upstairs packaging department. 
  For upstairs packaging department no documented label checks are currently implemented: 
- 1) seen as part of factory tour no documented label checks available for products currently in","5.5.1, 4.5.3",MULTIPLE,
+ 1) seen as part of factory tour no documented label checks available for products currently in","4.5.3, 5.5.1",MULTIPLE,
 185,Valero Forn Tradicional S.L.,"A Major non-conformity was raised during the audit on June 12-13, 2025.
  Description of the Major NC:
  Clause 4.8.2.:
@@ -409,12 +409,12 @@
 192,Polus Sütő Kft.,"During the IOC audit completed on site on 11/06/2025 the following Major NCs and KO were identified:
  
   4.9.1.1 MAJOR During the IOC the following non-compliance were observed regarding infrastructure. The risk of product contamination could not be excluded, therefore, the food safety could not be assured without doubts:
- - There were mouldy ceilings and walls observed throughout the whole factory, especially: (1) at raw material warehouse around the cold storage and frozen storage rooms; (2) i","4.9.1.1, 4.17.2, 3.2.2",MULTIPLE,
+ - There were mouldy ceilings and walls observed throughout the whole factory, especially: (1) at raw material warehouse around the cold storage and frozen storage rooms; (2) i","3.2.2, 4.9.1.1, 4.17.2",MULTIPLE,
 193,AGRO BLEND GROUP SHPK,outstanding payments,,MISSING,
 194,"ALBASOL FRUIT, S.L. B09876855","4.1.3 KO In the case of client H, it indicates that the watermelon's Brix must be between 12 and 13 degrees. 
  DV: ""No documented evidence of the measured BRIX levels is recorded in form G 0503-1 'Quality Control of Packaged Product'. Examples from the previous production campaign, since the previous certification audit, were requested, but it was not possible to provide evidence demonstrating compliance.""
  4.5.1
- MAJOR During the audit, documentation is requested for the following packaging: 50","4.4.3, 4.4.1, 4.15.7, 4.9.6.1, 5.3.4, 4.1.2, 2.3.6.1, 4.5.1, 4.9.5.4, 4.11.1, 4.11.4, 4.18.1, 5.11.3, 4.21.2, 4.3.4, 4.9.9.1, 4.1.3",MULTIPLE,
+ MAJOR During the audit, documentation is requested for the following packaging: 50","4.3.4, 4.9.5.4, 4.1.3, 4.15.7, 4.11.1, 4.9.9.1, 4.9.6.1, 4.4.3, 4.18.1, 4.1.2, 5.3.4, 2.3.6.1, 4.4.1, 4.5.1, 4.21.2, 4.11.4, 5.11.3",MULTIPLE,
 199,"BODEGAS LANGA HNOS., SL B50069616","During the announced recertification audit, carried out to the operator BODEGAS LANGA HERMANOS SL, COID 89016 on 11 and 12 June 2025, a major non-conformity with code 5.5.2 has been opened:
  For still wine, they carry out destructive quantity control. Production orders only indicate OK for the fill level, with no records of the checks carried out, such as, for example: production order ER-25-00137 of 09/05/2025 for bottling 2022 red wine under the PI L-250509 brand). It cannot be verified that q",5.5.2,OK,
 201,BIOLIVA MED COMPANY SARL,2024 invoice has not been paid,,MISSING,
@@ -435,7 +435,7 @@
  
  1. Misleading claim: The statement “traditional Italian recipe” implies a traditional composition, wher",4.3.2,OK,
 206,Pflaum Feinkost GmbH,"1.2.1 KO
- In accordance with the standard, management must ensure that employees are aware of their responsibilities with regard to food safety and product quality and that mechanisms are in place to monitor the effectiveness of their actions. These mechanisms are identified and documented. This is not implemented to a sufficient extent; for example, an internal audit conducted by an external auditor on 20-21 August 2024 identified a total of 65 deviations (31x of which were D deviations and 8x ","2.3.9.4, 1.2.1, 4.18.1, 4.14.2",MULTIPLE,
+ In accordance with the standard, management must ensure that employees are aware of their responsibilities with regard to food safety and product quality and that mechanisms are in place to monitor the effectiveness of their actions. These mechanisms are identified and documented. This is not implemented to a sufficient extent; for example, an internal audit conducted by an external auditor on 20-21 August 2024 identified a total of 65 deviations (31x of which were D deviations and 8x ","4.14.2, 4.18.1, 1.2.1, 2.3.9.4",MULTIPLE,
 207,Vandemoortele Bakery Products France- Le Fossat SAS,"Major NC on 4.13.2: During the audit, it was noted that the measures put in place to control pests were not sufficiently effective: 1/ Successive trend analyses show that rodents are being caught inside the premises. 33 since the beginning of the year, for example at the entrance to the CIP room, at the kneading area on line D (12/05), in maintenance, in cardboard storage, in packaging storage 1 (11/06). Even though sealing work is regularly carried out, particularly following the infrastructure",4.13.2,OK,
 208,Fromagerie Perreault-site d'Azé,"REQUIREMENT 2.3.9.4
  During the audit, the X-ray PRPo was not under control on the cheese-cutting packaging line:
@@ -460,7 +460,7 @@
 215,Kőröstej Kőröstetétleni üzeme Kft.,"During the audit completed on site on 2,3,4 July 2025 the following KO and NC mayor were identified:
  
  KO 3.3.2: Several workers have been worn clothes dedicated to clean zone production area in the yard.
- - In the cardboard packing area of the sliced and grated cheese products the employees wore one-usable green coats during the audit which is dedicated to the high hygiene control slicing and grating area. The two areas are separated by each other so in the cardboard packing area it is not req","4.8.2, 3.3.2, 4.14.3, 4.14.5, 5.11.3",MULTIPLE,
+ - In the cardboard packing area of the sliced and grated cheese products the employees wore one-usable green coats during the audit which is dedicated to the high hygiene control slicing and grating area. The two areas are separated by each other so in the cardboard packing area it is not req","4.8.2, 4.14.3, 3.3.2, 4.14.5, 5.11.3",MULTIPLE,
 216,AGRÍCOLA D'ALBATÀRREC I SECCIÓ DE CRÈDIT S.C.C.L.,"During the IFS Food v.8 audit performed from 25 to 27 of June 2025, was detected two Major Non Conformities. 
  Requirement 2.3.9.4. Description: Although there is a register for post-harvest treatments online (Reg. 50 ‘Register of post-harvest phytosanitary treatments’ Edc. 2 date: 22/06/2020), the treatments carried out during 2025 have not been recorded, making it impossible to verify the product used, the doses, the quantities applied or the batches of the products used. 
  Requirement 4.12.3.","4.12.3, 2.3.9.4",MULTIPLE,
@@ -501,20 +501,20 @@
  • CCP 5 ‘Metal detector’ has not been the subject of records of passage tests since 13 June 2025.
  • CCP1 ‘pH of dried products’ has not been the subject of records of the final weight loss after drying since 26 June 2025.
  These two failures to comply with the records specified in the HACCP study make it impossible to effectively demonstrate the control associated with these 2 CCPs.",,MISSING,
-229,"BREYBEAU NV, site Gavere - Breydel .","KO 1.2.1: During the audit it became clear that the integration of the employees of the site of Tradelio in Oudenaarde which moved partly to the site of Breydel, were not yet integrated in the company. Lack of communication and lack of presence of the senior management on the work-floor caused a serious breach in the Food safety culture within the company. It became clear that several employees were somewhat lost within the company and not aware of any risks within the company and the need to re","1.2.1, 4.9.4.1",MULTIPLE,
+229,"BREYBEAU NV, site Gavere - Breydel .","KO 1.2.1: During the audit it became clear that the integration of the employees of the site of Tradelio in Oudenaarde which moved partly to the site of Breydel, were not yet integrated in the company. Lack of communication and lack of presence of the senior management on the work-floor caused a serious breach in the Food safety culture within the company. It became clear that several employees were somewhat lost within the company and not aware of any risks within the company and the need to re","4.9.4.1, 1.2.1",MULTIPLE,
 230,SuiCo EOOD,"Major on 4.19.2 
  The company manufactures some products with “Gluten free” claims. During the IOC “Gluten free” Macaroni was packed. The following bad practices were observed during the IOC: 
- - The “Gluten free” claimed Macaroni was loaded into a hopper of the packaging machine. Right above the hopper of the packaging machine a mixer was situated (the unloading pipe of the mixer was right above the hopper of the packing machine. The mixer (used for mixing gluten containing muesli) was not full","5.5.2, 4.12.1, 4.19.2, 4.3.2",MULTIPLE,
+ - The “Gluten free” claimed Macaroni was loaded into a hopper of the packaging machine. Right above the hopper of the packaging machine a mixer was situated (the unloading pipe of the mixer was right above the hopper of the packing machine. The mixer (used for mixing gluten containing muesli) was not full","4.19.2, 4.12.1, 5.5.2, 4.3.2",MULTIPLE,
 231,Prodotti Alimentari Fioravanti & C. S.r.l. Srl,"During the Integrity On-site Check of 09/07/2025, 4 non-conformities were identified against the following IFS-Food v8 requirements as follows:
  • 2.3.9.1* KO N° 2, NC Level: KO -D
  • 3.2.2* KO N° 3, NC Level: KO -D
  • 5.5.2, NC Level: NC Major
- • 5.11.3* KO N° 5, NC Level: KO -D","5.5.2, 5.11.3, 3.2.2",MULTIPLE,
+ • 5.11.3* KO N° 5, NC Level: KO -D","5.11.3, 3.2.2, 5.5.2",MULTIPLE,
 232,La Noix Gaillarde SN EURL,"Major NC on 2.1.2.1 : An internal audit was subcontracted on 13/01/2025 to an external auditor. The 1st audit report presented to the auditor made no mention of the major NC and the KO assigned by the external auditor in the internal audit summary paragraph. 
  Following the insistence of the auditor for the current certification audit, the initial audit report sent by the external auditor was presented and did indeed include a major NC and a KO. The report had therefore been modified.",2.1.2.1,OK,
 233,KALOGERAKI BROS SA,"During the IFS audit (01-03/07/2025) 4 MAJOR Non conformities were recorded .
  1) 3.4.1 . The lockers were not repaired and cleaned after the finding of last audit(2024) including the walls in that area. This re-occurring finding is downgraded from ""D"" to ""Major""
- 2) 4.17.4. The equipment for mixing the ingredients of dairy dessert -edesma -(two receiving tanks for dry ingredients, connected with the batch stirring tanks) are located in a covered but external area (open to the outside environmen","5.5.1, 3.4.1, 5.11.4, 4.17.4, 4.10.5, 4.14.3, 1.3.1, 4.9.4.1",MULTIPLE,
+ 2) 4.17.4. The equipment for mixing the ingredients of dairy dessert -edesma -(two receiving tanks for dry ingredients, connected with the batch stirring tanks) are located in a covered but external area (open to the outside environmen","4.14.3, 5.11.4, 5.5.1, 4.10.5, 3.4.1, 4.9.4.1, 1.3.1, 4.17.4",MULTIPLE,
 234,Cárnicas Mirotz SL,"A KO was raised during the audit on June 30, 2025.
  Description of the KO:
  Clause 4.18.1:
@@ -523,7 +523,7 @@
  During the on-site visit, it was observed on the candy process, at the level of the candy paste rolling machine (machine for rolling the candy paste), significant wear of the paint on the metal plate in contact with the product at the end of the cylinders at the line inlet. Due to friction with the candy paste, the paint has been partly removed (polished) and the metal has been exposed. The candy paste observed on the machine was colored orange and th",4.17.4,OK,
 237,INDUSTRIAS LACTEAS SAN VICENTE S.L.,"During the IOC audit completed on site on 20-June-2025 the following Major NCs and KO were identified:
  
-  4.8.3 MAJOR The company operates a clean room since February 2025, where the cheese is cut in wedges (with / without pre-cutting in portions). Cutting, packing and labelling had not been segregated until that date. There is a risk assessment for this requirement, dated on 01 FEB 2024, where the company concluded that the clean room was necessary for the activity to guarantee absence of micr","4.8.3, 4.13.2",MULTIPLE,
+  4.8.3 MAJOR The company operates a clean room since February 2025, where the cheese is cut in wedges (with / without pre-cutting in portions). Cutting, packing and labelling had not been segregated until that date. There is a risk assessment for this requirement, dated on 01 FEB 2024, where the company concluded that the clean room was necessary for the activity to guarantee absence of micr","4.13.2, 4.8.3",MULTIPLE,
 239,NTRA SRA DEL ROSARIO S.C.L (BODEGAS CAMPOS REALES) coop (SITE PROVENCIO),"During the recertification audit, a major non-conformity has been detected in requirement 5.4.1:
  
  It is observed that the scale used for products packaged in BiB does not comply with the tolerance established in RD1801/2008. The step of the class III scale used is 10g, when it should be a maximum of 3 grams.",5.4.1,OK,
@@ -532,7 +532,7 @@
  There is insufficient recorded documentation to verify that the product contains 70% filling in other formats. For example, in the traceability product, there is no record ",5.3.2,OK,
 244,I.CA. Srl,"During the audit completed on site on 1-2 July 2025 – 01 the following KO and NC mayor were identified:
  
- NC major 2.3.6.1 Hazard analysis Ed.2 Rev. 6 Annex 3 of 12.06.2025 the production process for lasagne alla parmigiana does not include the cooking and manual filling of the braising pan for the production of tomato sauce, Furthermore, the process for pre-cooked fried products does not include the manual loading of flour for battering, and the risk of allergens is not clearly formalised for ","4.9.8.2, 4.3.6, 4.9.8.3, 4.19.3, 2.3.6.1, 5.11.4, 4.9.3.3, 4.14.3, 4.3.4",MULTIPLE,
+ NC major 2.3.6.1 Hazard analysis Ed.2 Rev. 6 Annex 3 of 12.06.2025 the production process for lasagne alla parmigiana does not include the cooking and manual filling of the braising pan for the production of tomato sauce, Furthermore, the process for pre-cooked fried products does not include the manual loading of flour for battering, and the risk of allergens is not clearly formalised for ","4.3.4, 4.19.3, 4.3.6, 4.9.8.2, 5.11.4, 4.14.3, 4.9.8.3, 2.3.6.1, 4.9.3.3",MULTIPLE,
 246,"MIDSONA IBERIA, S.L.U.","Major Non Conformity Req. 4.9.3.1
  In relation to the condition of the floors, the following is evident:
  - The floor coverings of the finished product and semi-finished product blast chillers in Hall 2 do not meet the hygienic requirements for production. They are completely deteriorated (including the presence of grit in the finished product chiller due to excessive deterioration), which prevents proper cleaning and disinfection. Surfaces are not impermeable or resistant to wear and tear.
@@ -545,7 +545,7 @@
  
  Reason: During the audit conducted in period 23-25.06.2025, the auditor raised multiple Major and KO non-conformities.
  
- 1.2.1 KO: Based on the site tour observations and the samples of documents and records reviewed during the audit it can be concluded the company’s management does not guarantee that employees know and implement","4.12.1, 5.10.1, 1.2.2, 1.2.1, 4.18.1",MULTIPLE,
+ 1.2.1 KO: Based on the site tour observations and the samples of documents and records reviewed during the audit it can be concluded the company’s management does not guarantee that employees know and implement","1.2.1, 1.2.2, 5.10.1, 4.18.1, 4.12.1",MULTIPLE,
 249,JOSE MORALES S.L.,"On 21.06.25 a fire destroyed the entire production plant. 
  There was no product left in stock; only part of the office area was saved. 
  The causes of the fire are still unknown. It started at night during the weekend (plant not operational).",,MISSING,
@@ -565,7 +565,7 @@
  Description of the KO:
  Clause 5.1.1:
  “The following findings emerged from the verification of the last three internal audits (March 2025, October and November 2024):
- - for the three audits there is no evidence of communication of the audit results (checklist, minutes, etc.) to the Quality Manager by the internal auditor); for those of March and October a paper copy was found by the internal auditor; it was not possible to obtain evidence","4.10.6, 5.6.5, 4.13.4, 5.1.1, 5.6.8",MULTIPLE,
+ - for the three audits there is no evidence of communication of the audit results (checklist, minutes, etc.) to the Quality Manager by the internal auditor); for those of March and October a paper copy was found by the internal auditor; it was not possible to obtain evidence","5.1.1, 4.13.4, 5.6.5, 4.10.6, 5.6.8",MULTIPLE,
 260,TORRONS VICENS (CRTA TARREGA) SL,4.12.1 - KO - The use of wooden paddles for kneading (stage after cooking and before molding) of the hazelnut turrón d'Agramunt and almond turrón d'Agramunt is observed; these paddles are deteriorated in the central part due to direct and repetitive contact with the metal kneading bowl. Remains of splinters can be observed in the product that is being elaborated due to the use of the wooden paddles in bad condition.,4.12.1,OK,
 261,Vergeer Holland B.V. B.V.,"Paragraph 5.11.3 KO; Corrective and preventive measures.
  Actions are followed up using a central action list. Based on a random sample of six actions, four deviations were identified:
@@ -583,7 +583,7 @@
  
  We inform you that during the IFS Food v.8 audit performed from 07 to 08 July 2025 was detected a KO and 2 Major non conformities.
  
- KO non conformity- Requirement 4.1.3: The entry for Hass avocados dated 25-11-24 was reviewed. Supplier: Bxxx Axxx, S.L. (Product not GlobalG.A.P certified). Origin: Morocco. Entry with delivery note 99251124. It was verified that several pallets were prepared for several orders, several packages and for several customers. This was verified, for examp","4.3.2, 4.2.1.5, 4.1.3",MULTIPLE,
+ KO non conformity- Requirement 4.1.3: The entry for Hass avocados dated 25-11-24 was reviewed. Supplier: Bxxx Axxx, S.L. (Product not GlobalG.A.P certified). Origin: Morocco. Entry with delivery note 99251124. It was verified that several pallets were prepared for several orders, several packages and for several customers. This was verified, for examp","4.2.1.5, 4.1.3, 4.3.2",MULTIPLE,
 270,Lipóti Tóth és Társai Zrt,"4.13.2 Major
  
  During the site inspection, the presence of both live and dead moths was observed at several independent locations, including:
@@ -592,7 +592,7 @@
  • inside the dough mixing bowl.
  Based on these observations, it can be concluded that the current pest con","5.11.3, 4.13.2",MULTIPLE,
 272,EMBİ GIDA A.Ş,"KO 4.18.1:
- During the audit, traceability forms filled in the minced meat preparation area were seen. The beef batch number written on this form was 27.06.2025. However, it was seen that the batch number of the beef that the staff later brought inside was 05.07.2025. The batch changes were not recorded on the form. The traceability forms in the cheese preparation room stated that cheese with batch number 18.11.2025 was used, however, during the audit, it was seen that the staff used cheese with","5.3.2, 4.18.1",MULTIPLE,
+ During the audit, traceability forms filled in the minced meat preparation area were seen. The beef batch number written on this form was 27.06.2025. However, it was seen that the batch number of the beef that the staff later brought inside was 05.07.2025. The batch changes were not recorded on the form. The traceability forms in the cheese preparation room stated that cheese with batch number 18.11.2025 was used, however, during the audit, it was seen that the staff used cheese with","4.18.1, 5.3.2",MULTIPLE,
 274,GRAND HOPITAL .,"Item : 4.3.2 
  Several regulatory labeling defects have been observed:
  1. During the traceability test, on the pallets of apricots for the customer DIL prepared on 29/06/25, departure 30/06/2025, the variety LIDO was noted whereas several pallets were made with apricots of the variety DELICE COAT. However, according to the marketing standard for apricots (UNECE STANDARD FFV-02), for Class 1, variety labelling is compulsory (""Variety name for Extra Class and Class I. A brand name may not be used",4.3.2,OK,
@@ -605,14 +605,14 @@
  -4.3.2: labelling not compliant in terms of list of ingredients
  -4.12.2 Potential foreign material contamination from infrastructure
  -5.5.2 weight control registration not in compliance with Legislation.
- Therfore the CB has decided to suspend the current certificate.","2.3.8.1, 4.3.2, 5.5.2, 4.12.2",MULTIPLE,
+ Therfore the CB has decided to suspend the current certificate.","5.5.2, 4.3.2, 2.3.8.1, 4.12.2",MULTIPLE,
 280,Lenger Seafoods B.V.,The customer has terminated the certification agreement with DNV.,,MISSING,
 281,DELPEYRAT SAS,The site is closed.,,MISSING,
-282,Wiesbauer-Dunahús Kft.,"- 4.1.2 MAJOR: The company has a contract with the parent company (IFS certified COID:1277) for the production and packaging of the Happy Frankfurter product. The parent company provided Wiesbauer Dunahús with the product specification and also provided the packaging material required for packaging. On the first day of the audit, the Happy Frankfurter 210 g (Lot: 58890) product was packaged. During packaging, the CCP control, metal detection, was carried out, the product was manufactured accordi","4.4.7, 4.1.2, 4.3.2",MULTIPLE,
+282,Wiesbauer-Dunahús Kft.,"- 4.1.2 MAJOR: The company has a contract with the parent company (IFS certified COID:1277) for the production and packaging of the Happy Frankfurter product. The parent company provided Wiesbauer Dunahús with the product specification and also provided the packaging material required for packaging. On the first day of the audit, the Happy Frankfurter 210 g (Lot: 58890) product was packaged. During packaging, the CCP control, metal detection, was carried out, the product was manufactured accordi","4.3.2, 4.4.7, 4.1.2",MULTIPLE,
 283,Salumificio del Castello S.r.l.,"During the recertification audit completed on site on 14-15/07/2025 the following Major NCs were identified:
   
  2.3.6.1 Major The ATM packaging phase was not assessed in the HACCP plan. This is a critical phase for product safety and quality.
- 4.2.1.5 Major Regarding the claim of reduced salt content (48%), no studies have been conducted to demonstrate the conformity of the claim.","2.3.6.1, 4.2.1.5",MULTIPLE,
+ 4.2.1.5 Major Regarding the claim of reduced salt content (48%), no studies have been conducted to demonstrate the conformity of the claim.","4.2.1.5, 2.3.6.1",MULTIPLE,
 284,Fallini Formaggi SRL,"During current unannounced on site audit (14-15/07/2025), auditor releases a D at KO requirement 2.3.9.1:
  During site tour on packaging department, checking 10g bag line at 10:39 a.m. ( in which is going packaging of “VIP Premium Quality 10g” product - batch L5195 BBF 14/07/2026) and its CCP metal detector function record sheet of the day, the record sheet reports checks up to 1:37 p.m., with the relevant compliance and signature of the operator. However, these inspections were not actually per",,POTENTIAL_MISS,
 285,Wiesbauer Gourmet Gastro GmbH,"2.3.9.1 KO
@@ -640,7 +640,7 @@
  KO deviation – Section 4.12.1 CCP Metal detector
  During a live functional test of the metal detector, rejected products were returned to the good stock without the required re-inspection.
  Major deviation – Section 5.5.1 Finished product weight control
- Missing finished product checks for a specific product, without proof of legal compliance (complaint in connection with EU/Swiss finished pro","4.12.1, 5.11.3, 5.5.1",MULTIPLE,
+ Missing finished product checks for a specific product, without proof of legal compliance (complaint in connection with EU/Swiss finished pro","5.11.3, 4.12.1, 5.5.1",MULTIPLE,
 292,Werk Muster KG,some text,,MISSING,
 293,"Horno de San Juan, S.L.","In the IFS Food announced recertification audit performed on 15.07.2025 - 16.07.2025, 1 Major Scoring non-conformity was identified on requirement 4.3.2:
  
@@ -661,7 +661,7 @@
  On 3 December 2024, an internal audit was conducted on all requirements of the IFS standard and all points were rated A, so no action plan was drawn up. Due to the fact that none of the existing deviations were id",5.1.1,OK,
 299,MANIPULADOS NICOLA S.L.,"On 15-July-2025 an Integrity On-site check was carried out. 5 non-conformities were identified against the following IFS-Food v8 requirements.
  2.3.9.1 KO The monitoring of the CPP is not respected. In case that the supplier is notcertified by a GFSI standard is required a review of the pesticides croptreatments. The supplier M.A.L had not GFSI certified and it is not available thereview of the crop treatments. Neither was available pesticide test for thissupplier.
- 3.2.2. KO During production b","3.2.2, 4.12.2, 5.3.1, 4.9.9.1",MULTIPLE,
+ 3.2.2. KO During production b","3.2.2, 5.3.1, 4.9.9.1, 4.12.2",MULTIPLE,
 300,Chimay Fromages SC,"D-4.18.1-KO
  The company follows the traceability of the primary packaging implemented at the packaging by pasting labels comprising the batch numbers of the packages onto the tracking record of the packaging. It is planned that these labels will be made available to the staff in charge of the packaging when a new packaging batch is made available in stock.
  
@@ -676,13 +676,13 @@
  During the audit it is evident that the CCPs (sealing and pasteurisation) are not under control. During the visit to the plant on 15-07-2025 it was observed that in the production of 5 kg cans of olives:
  - SEALING: 
  * Pressure gauge/manual pump pressure is less than 1 bar (CCL:1 bar, 10 seconds).
- * There is no evidence of justification for the monitoring system in place. Destructive examination of the container (closure disassembly examination) has not bee","4.3.4, 4.17.2, 4.14.2, 4.3.2",MULTIPLE,
+ * There is no evidence of justification for the monitoring system in place. Destructive examination of the container (closure disassembly examination) has not bee","4.3.4, 4.3.2, 4.14.2, 4.17.2",MULTIPLE,
 304,Maxima Seafood B.V.,NC 4.8.3 Ice is made by the company. The output of the ice making equipment is stored in an area/bunker. There is an opening in the bunker at about 1 meter high where underneath a tub is situated which catches the ice. The bunker is not well designed: ice on the edges of the bunker does not fall automatically in the tub. Seen employee in the bunker with dirty boots scraping the ice from the edges of the bunker to the opening. There is a risk of microbiological contamination of the ice. The ice i,4.8.3,OK,
 305,Q-FOOD NV,"During the extra ordinary visit on 24/07/2025, the following was noted:
  * Frozen boneless ovine leg",,MISSING,
 306,Delizia 2000 S.r.l.,"During the audit completed on site on 17-18/07/2025 the following KO were identified:
  
- 2.3.9.1 KO In document Cap. 16 Identification CCP oPRP rev. 01 dated 2019-08-01 it was defined as monitoring of the pasteurisation heat treatment CCP the verification of the F71 factor with critical limit F71>100; during the audit data logger recordings were viewed with a value lower than the defined critical limit but no action appears to have been taken (Data logger dated 2025-07-05 ‘Lampascioni’ in sunflo","4.4.2, 5.11.3, 4.4.1, 4.9.3.1, 4.12.9",MULTIPLE,
+ 2.3.9.1 KO In document Cap. 16 Identification CCP oPRP rev. 01 dated 2019-08-01 it was defined as monitoring of the pasteurisation heat treatment CCP the verification of the F71 factor with critical limit F71>100; during the audit data logger recordings were viewed with a value lower than the defined critical limit but no action appears to have been taken (Data logger dated 2025-07-05 ‘Lampascioni’ in sunflo","4.4.2, 4.4.1, 4.9.3.1, 4.12.9, 5.11.3",MULTIPLE,
 307,INITIA FOOD SAS,"A new ERP software is currently being deployed, along with a change in management and an internal structural reorganization.",,MISSING,
 308,Ortofrutta Caligari Srl,"A KO was raised during the audit on July 16, 2025.
  Description of the KO:
@@ -691,7 +691,7 @@
  
  KO 4.18.1:
  During the audit, it was found that the traceability system implemented in the company, through ERP and documentary tools, does not allow to efficiently guarantee the relationship between raw materials, batches, intermediate products and final products sent to customers. In the traceability exercises carried out during the audit, the following incidents were observed:
- - Discrepancies were ide","5.10.1, 4.18.1, 2.3.11.1, 4.3.2, 4.10.2",MULTIPLE,
+ - Discrepancies were ide","4.18.1, 5.10.1, 2.3.11.1, 4.10.2, 4.3.2",MULTIPLE,
 310,Pitteloud Fruits S.L.,"A Major non-conformity was raised during the audit on July 10-11, 2025. 
  Description of the Major NC:
  Clause 5.5.1:
@@ -743,7 +743,7 @@
  Requirement 3.2.2 (KO): 
  Personnel hygiene rules were not followed in several cases:
  1. One employee (shift leader at raw meat packing) was wearing neck chain.
- 2. Protective clothing and number of working shoes were placed in the part of changing room dedicated for street clothes (changing room fo","4.12.1, 3.2.2",MULTIPLE,
+ 2. Protective clothing and number of working shoes were placed in the part of changing room dedicated for street clothes (changing room fo","3.2.2, 4.12.1",MULTIPLE,
 336,Cesare Regnoli & Figlio S.r.l.,The factory suffered a fire that destroyed the production area.,,MISSING,
 337,PESCANOVA ESPAÑA (CATARROJA) S.L.U.,"According to the Integrity on-site Check carried out on June 30, 2025, the company PESCANOVA ESPAÑA (CATARROJA) (COID: 21852), has obtained a Major Non-Conformities in the following requirement:
   
@@ -759,7 +759,7 @@
  
  Records of CCP monitoring for products at the time of Integrity on-site Check were not respecting required frequency:
  1. For product Šunková pěna 100g (Ham foam) alupack, production started at 05:40, but the first can quality test was performed at 06:00 (It shall be performed during the start of production)
- 2. For product Vepřové ve vlastní šťávě 300g (Pork in gravy) metal can, there was missing record of CCP monitoring can quality at 10:15 (checked at 10:33) and previous record ","4.14.2, 4.3.2, 4.17.4, 5.11.3",MULTIPLE,
+ 2. For product Vepřové ve vlastní šťávě 300g (Pork in gravy) metal can, there was missing record of CCP monitoring can quality at 10:15 (checked at 10:33) and previous record ","4.3.2, 4.14.2, 4.17.4, 5.11.3",MULTIPLE,
 342,"MISSION FOODS IBERIA, S.A.U – FUENLABRADA SITE S.L.","Major non-conformity 4.3.2: it was verified during the plant visit and during the documentary review that the labelling of the product T Trigo 20 A 10X10 Cxxxxxxxxxx did not include water in the list of ingredients. This product contains between 27% and 31% water. However, this ingredient is included in the product specification sheet. In the situation described above, the procedure does not ensure that the labelling complies with Regulation 1169 of 2011 concerning the information provided to th",4.3.2,OK,
 343,Liffey Meats Ltd,"4.8.2:
  The process flow, from receipt of goods to dispatch, that is implemented, maintained, reviewed don’t ensure that the microbiological, chemical and physical contamination risks of semi-finished and consequently finished products are avoided. 
@@ -772,10 +772,10 @@
 349,BOUBASUD sprl,"KO om 5.11.3
  ""The corrective actions defined during the previous IFS audit and developed within the company are not sufficiently effective to prevent their recurrence. As a result, a large number of deviations following the IFS 2024 audit could not be closed during the current audit (3.2.2, 4.3.2, 4.9.4.1, 4.10.1, 4.12.1, 5.1.1, 5.1.3, 5.3.2 and 5.3.5).""
  
- and 5 Major NC's on 1.2.2, 2.3.6.1, 2.3.9.4, 4.3.2 and 4.5.2","4.12.1, 3.2.2, 5.3.2, 1.2.2, 4.5.2, 4.10.1, 4.3.2, 2.3.6.1, 2.3.9.4, 5.3.5, 5.11.3, 5.1.1, 4.9.4.1, 5.1.3",MULTIPLE,
+ and 5 Major NC's on 1.2.2, 2.3.6.1, 2.3.9.4, 4.3.2 and 4.5.2","4.5.2, 1.2.2, 4.3.2, 5.1.1, 3.2.2, 5.1.3, 4.10.1, 2.3.9.4, 5.3.2, 4.12.1, 5.3.5, 2.3.6.1, 4.9.4.1, 5.11.3",MULTIPLE,
 350,Backhäusle GmbH,"Major Nonconformity 4.13.2:
  During the site visit on the first day of the audit, various insects were observed in the production area. There was a dead wasp in the gluten-free room, a live hornet near the crate washer, several houseflies, and small fruit flies in the dough production area. Some of the fruit flies were also found on the raw material (yeast) and the dough currently being processed (for Tiger Pretzels).
- Pest monitoring revealed no significant insect infestations. During the site ","4.13.2, 4.5.3, 1.3.1, 5.11.3, 5.1.1",MULTIPLE,
+ Pest monitoring revealed no significant insect infestations. During the site ","5.1.1, 1.3.1, 5.11.3, 4.5.3, 4.13.2",MULTIPLE,
 351,GOOD MEAT NV,"Major 4.9.4.1 : On day 1 of the audit, there were some condensation droplets on the ceiling of the portioning room. However, on day 2, significant condensation was present on the ceilings in many rooms. It turned out that two fans were not working, which was unnoticed during the line release for startup. 
  
  Following our findings, the external cooling and ventilation company immediately arrived on-site to repair the fans. Pending the adjustment of the ventilation throughout the entire productio",4.9.4.1,OK,
@@ -785,12 +785,12 @@
  
  Nº 1 - 1.2.1 KO:
  During the visit to the facilities, it was observed that several operators collect product from the floor and place it on pallets with the final product (ham rid and small pieces of ham). The product is during hours in contact with the floor.
- During the visit, three operators were interviewed, all three of whom indicated that at the end of the day, the waste on the floor is ","1.2.1, 4.12.2, 2.1.2.1, 4.10.2, 4.2.1.1",MULTIPLE,
+ During the visit, three operators were interviewed, all three of whom indicated that at the end of the day, the waste on the floor is ","1.2.1, 4.10.2, 4.2.1.1, 2.1.2.1, 4.12.2",MULTIPLE,
 357,Europastry (Planta Paterna) S.A.,"LRQA has been notified of 2 Major Non-conformities raised by IFS in connection with the Integrity On-site Check at the site Europastry (Planta Paterna) S.A. - COID 65237 on 28th July 2025:
  
  Requirement 4.10.2 (Major NC) 
  During the visit on-site, it was evidenced that the cleaning plan is not fully implemented. Among other aspects, it was observed:
- - Dirt accumulated under the pallets in the raw materials warehouse. According to the cleaning plan 15 MAY 2025, cleaning of floors in this area ","4.10.2, 4.14.3",MULTIPLE,
+ - Dirt accumulated under the pallets in the raw materials warehouse. According to the cleaning plan 15 MAY 2025, cleaning of floors in this area ","4.14.3, 4.10.2",MULTIPLE,
 359,Mar Cabo - Produtos Congelados Lda,"The company Mar Cabo - Produtos Congelados Lda - COID 71826 received a authority visit (DGAV) on July 03, 2025, the report was released and sent to WQS last week. 
  24 Non-conformities were raised which the following below show that there are products at risk and/or legal requirements are not met (for example): 
   
@@ -798,12 +798,12 @@
  f) In chamber CAM 03, water drip",,POTENTIAL_MISS,
 360,Sauerlandfrische Dornseifer GmbH & Co. KG,"2.3.6.1 – Major
  The hazard analysis for ""Skin-wrapped meals, snacks, and soup bowls"" lacks the cooling process for sauces and mashed potatoes. The cooling process poses microbiological hazards if cooled too slowly; these risks have not been assessed. During the audit, a sauce for Königsberger Klopse (a German meat-ball) was found in the cold storage facility. The production date was August 11, and the sauce had a temperature of 14°C.
- Note: The sauce was immediately disposed of. The final produ","4.18.1, 4.3.2, 4.9.4.1, 2.3.6.1",MULTIPLE,
+ Note: The sauce was immediately disposed of. The final produ","4.18.1, 4.9.4.1, 2.3.6.1, 4.3.2",MULTIPLE,
 361,Chocolat Ammann AG,"The production site in Heimberg has closed today. Acquisition by Maestrani Schweizer Schokoladen AG, Flawil",,MISSING,
 362,Cafrost GmbH,"3.2.2 - KO
  With regard to compliance with personal hygiene requirements, a large number of deficiencies were identi-fied during the audit:
  - A workshop employee goes directly from the workshop to production without disinfecting their hands, as is actually required. (The disinfectant dispenser required for this would not have been available on site on the first day of the audit).
- - There are a large number of cigarette butts and empty paper coffee cups outside the emergency exit doors of the p","4.12.1, 3.2.2, 4.18.1, 4.13.1",MULTIPLE,
+ - There are a large number of cigarette butts and empty paper coffee cups outside the emergency exit doors of the p","3.2.2, 4.18.1, 4.12.1, 4.13.1",MULTIPLE,
 364,VIGNOBLES ROUSSEAU SCE,Suspension of certification requested by customer,,POTENTIAL_MISS,
 370,Brandt & Levie B.V.,"As of today, 01-08-2025 Certima BV withdraws the certificate number IFS-01243 of client Brandt & Levie B.V. (COID: 85058). 
  Reason:
@@ -814,7 +814,7 @@
 371,BANILA UkusNo.1 doo,"after Integrity on site check performed on 11 August 2025, detected Major NC at requirements 4.10.2, 4.20.2, 5.3.2 and KO at requirements 4.2.1.3 and 4.18.1.
  
  4.2.1.3 Specifications are not documented for all raw materials. E.g. missing for Oregano. On the software system, there are 127 raw materials used, however folder refers only 41 documents in the system. 
- 4.10.2 Cleaning activities are not being carried out properly. Long-term dirtiness and ineffective cleaning are observed in productio","5.3.2, 4.2.1.3, 4.20.2, 4.18.1, 4.10.2",MULTIPLE,
+ 4.10.2 Cleaning activities are not being carried out properly. Long-term dirtiness and ineffective cleaning are observed in productio","4.20.2, 4.18.1, 5.3.2, 4.2.1.3, 4.10.2",MULTIPLE,
 372,ONE NATURE FRUITS S.L.,"Major NC has been detected int he requirement 4.13.1
  
  The pest control plan is ineffective.
@@ -835,7 +835,7 @@
  In production, only site inspections are carried out (known as ‘hygiene rounds’ within the company).
  
  5.7.1 – Major
- 1. On the third day of the audit, a functional test of the X-ray detector was demonstrated at 8:00 a.m. in the presence of the auditor. The stainless steel (VA) test p","5.1.1, 5.7.1",MULTIPLE,
+ 1. On the third day of the audit, a functional test of the X-ray detector was demonstrated at 8:00 a.m. in the presence of the auditor. The stainless steel (VA) test p","5.7.1, 5.1.1",MULTIPLE,
 380,Fleischwaren Berger GesmbH & Co KG,"4.5.3 Major:
  For a number of meat products made from broken goods (trimmings and miscuts, slices that are too small or broken), the lists of ingredients do not comply with the requirements of the LMIV (Article 18). 
  Worst-case ingredient lists are provided, which approximately correspond to the ingredients of the products used: Poultry ham trimmings (1973): The package (best before date: 11. Sep. 2025) actually contains chicken ham. The ingredient list includes turkey meat in addition to chick","4.18.1, 4.5.3",MULTIPLE,
@@ -847,7 +847,7 @@
  • One employee with beard no covered in the same area. 
  • Several employees had not all hairs covered at the same area. 
  • Two employees not in production (open product handling) used cap which did not covered all their hairs. Hair net was not used. 
- Major 3.4.1 Working clothes were stored together with personnel clothin","5.10.1, 3.2.2, 3.4.1, 4.14.3, 4.18.1, 5.11.3, 4.19.2, 4.10.2",MULTIPLE,
+ Major 3.4.1 Working clothes were stored together with personnel clothin","4.14.3, 5.10.1, 3.2.2, 4.19.2, 4.10.2, 4.18.1, 3.4.1, 5.11.3",MULTIPLE,
 383,AGROALIMENTARIA DEL SUR S.A.,"During the Integrity On-site Check performed AGROALIMENTARIA DEL SUR S.A. - COID 10238 on 01 September 2025, was detected a Major Non-Conformity in the requirement 4.13.2.
  
  Description NC raised in the requirement 4.13.2: 
@@ -863,13 +863,13 @@
  The rules for personal hygiene and behaviour are not fully applied, during the site tour observed:
  1. employee eating in the lockers which was having on working protective clothes
  2. there are not clearly described rules of wearing/not wearing working protective clothes in clean and non-clean area; also during the site assessment observed shift-leader from clean area in non-clean area with wearing working protective clothes without any protection
- 3. rules for employees having lunch ","4.9.1.1, 3.2.2, 4.9.2.1, 4.9.3.1, 4.9.6.1, 5.11.3, 4.17.5",MULTIPLE,
+ 3. rules for employees having lunch ","3.2.2, 4.9.3.1, 4.9.6.1, 4.9.1.1, 4.17.5, 4.9.2.1, 5.11.3",MULTIPLE,
 387,Peter Kölln GmbH & Co. KGaA,"Due to a fire on the company premises, production is currently stopped.",,MISSING,
 388,Pekan Leipä Oy,"During the audit completed on site on 20-22/08/2025 the following Major NC was identified:
  2.3.11.1 Major NC: Validation of metal detector SN 2024-2387-C1not sufficient for test piece NFE in use 1.75mm; indeed, functionality test performed 3x3 times during audit showed that the rejection of packages was not done sufficiently in all tests - at normal product flow speed. Note: the validation was done for NFe piece 2mm. MD is not a CCP.",2.3.11.1,OK,
 390,Gebr. Bertrams GmbH & Co. KG,"• KO rating for the requirement 1.2.1: Due to the quantity and type of deviations found at the time of the Integrity on-site Check, it was determined that the management responsibility with regard to HACCP & QM, among other things, is not sufficient to effectively implement the IFS standard. As this is an essential requirement of the standard and a rating of B would not be plausible, a KO rating is justified from the IFS perspective.
  
- • KO rating for the requirement 4.18.1: The data and photos","1.2.1, 4.18.1, 5.1.1",MULTIPLE,
+ • KO rating for the requirement 4.18.1: The data and photos","4.18.1, 1.2.1, 5.1.1",MULTIPLE,
 391,PROCUBITOS EUROPE S.L.,"During the audit performed on 2nd September 2025 to 3rd September2025, it was detected a Major non-conformity under the requirement 4.17.4.
  
  Major non-conformity 4.17.4.
@@ -880,12 +880,12 @@
 394,CEDROB FOODS S.A.,After fire in Mai production wasn't launched yet at the plant. Full scope of production will be not reinstated.,,MISSING,
 395,KROP SINGLE MEMBER S.A,"Failure of the client to comply with the Q-CERT contract terms and conditions, non-response to emails/telephone callings, and non-payment of fees.",,MISSING,
 396,AGROEJIDO S.A.,"KO 5.11.3:
- The company has not properly closed the previous action plan. Seven of the ten deviations assigned in the previous audit are repeated, and the corresponding corrective actions detailed in the previous action plan have not been carried out. The requirements in which the deviations are repeated or the corrective actions have not been closed are as follows: 3.2.2; 4.12.10; 4.9.4.1; 4.10.5; 5.5.2; 3.3.4 and 5.9.1.","3.2.2, 4.12.10, 5.5.2, 3.3.4, 5.9.1, 4.10.5, 5.11.3, 4.9.4.1",MULTIPLE,
+ The company has not properly closed the previous action plan. Seven of the ten deviations assigned in the previous audit are repeated, and the corresponding corrective actions detailed in the previous action plan have not been carried out. The requirements in which the deviations are repeated or the corrective actions have not been closed are as follows: 3.2.2; 4.12.10; 4.9.4.1; 4.10.5; 5.5.2; 3.3.4 and 5.9.1.","3.3.4, 5.5.2, 3.2.2, 4.10.5, 5.9.1, 4.12.10, 4.9.4.1, 5.11.3",MULTIPLE,
 397,FAMIGLIA DI PASTA SA,"IFS Integrity check performed on 02/09/2025. 2 KOs and 2 Majors raised during this check. 
  3.2.2 KO: During the Integrity On-site Check, various deviations from personal hygiene requirements were identified, which led to this rating:
- - The company has an internal requirement that a face mask (surgical mask) must be worn. During the two inspections, it was found that face masks were not worn 8-10 times in the kitchen and dough processing areas, and in 5-6 cases, they were only worn over the mou","5.5.2, 2.3.9.2, 3.2.2",MULTIPLE,
+ - The company has an internal requirement that a face mask (surgical mask) must be worn. During the two inspections, it was found that face masks were not worn 8-10 times in the kitchen and dough processing areas, and in 5-6 cases, they were only worn over the mou","2.3.9.2, 3.2.2, 5.5.2",MULTIPLE,
 398,LOYEV PONT 2003 S.L.,"During the Integrity On-site check carried out on 27th of August 2025, the auditor raised 3 Major NC in the following requirements: 4.5.2 The company was using 100% recycled paper napkins as grease absorbers in direct contact with the product in their packed trays on the day of the audit (meat stuffed peppers). There is no evidence that the company has assessed the conformity of this food contact material in their raw material/supplier approval procedures. 
- They purchase the product from a reta","4.19.1, 4.13.2, 4.5.2",MULTIPLE,
+ They purchase the product from a reta","4.5.2, 4.19.1, 4.13.2",MULTIPLE,
 399,OMEGA SPICE S.L,"During the audit carried out on 19th & 20th of August, the auditor raised a Major NC in the requirement 4.14.3: During the inspection, several pallets of raw material consisting of paprika husks and other species were found to contain insects in the storage area (insects that had hatched during storage). The company does not appear to be taking any immediate action on these products to prevent them from being processed (such as blocking, identification, separation, destruction, treatment, etc.).",4.14.3,OK,
 400,Frio Food Snacks b.v. .,"KO on 2.3.9.1: Seen during the factory tour on the second audit day 26-08-2025 that there was no record of CCP 1; core temperature after heating of bought-in bags with sauce which is used for the production of ""bamischijf oriental"", recipe F26, and seen that also temperature records of the same heated bought-in sauce were missing on 12-02-2025 and 3-2-2025.",,MISSING,
 402,"ESTEVÃO LUÍS SALVADOR, LDA .","Chapter 4.2.1.2 (Specifications): MAJOR
@@ -909,14 +909,14 @@
  
  Major NC - requirement 4.21.2
  
- Gate to the milk receipt area was open most of the day (at 08:00, at 11:30 and at 13:55). Majority of doors to the chemical storage areas, expedition area, production areas were unlocked, open, in several cases with keys in lock from ex","4.13.2, 4.18.1, 5.4.2, 4.21.2, 4.10.2",MULTIPLE,
+ Gate to the milk receipt area was open most of the day (at 08:00, at 11:30 and at 13:55). Majority of doors to the chemical storage areas, expedition area, production areas were unlocked, open, in several cases with keys in lock from ex","4.18.1, 4.21.2, 4.10.2, 5.4.2, 4.13.2",MULTIPLE,
 407,SIMID AGRO EOOD,"The following non-conformities have been raised during the IFS Food re-certification audit on 27-29/08/2025 at SIMID AGRO EOOD - COID 60271:
  
  Major non-conformity (requirement 4.13.4):
  Crawling insects were observed in Corpus 3:
  (1) on the first floor at Workshops 1 and 2, near the raw material storage area,
  (2) on the first floor in the area between the exit of kneading cameras and rotary ovens,
- (3) on second floor, near the entrance and near the mixing area of a non-operating frozen prod","4.13.4, 5.11.3, 4.19.2",MULTIPLE,
+ (3) on second floor, near the entrance and near the mixing area of a non-operating frozen prod","4.13.4, 4.19.2, 5.11.3",MULTIPLE,
 408,PINSAMI SRL,the company stopped production and will not renew certificate,,MISSING,
 410,"Zakład Przetwórstwa Mięsno - Rybnego ""Kari"" Wiesław Pluta .",No payment for the audit done,,MISSING,
 411,PASTIFICIO FIORILLO SAS DI FIORILLO MICHELE & C. sas,The suspension was decided due to the failure to pay invoices relating to activities already carried out by Certiquality S.r.l.,,MISSING,
@@ -947,7 +947,7 @@
  Evidence inside the frozen product storage chamber of a box containing packages of frozen seasoned f",4.19.1,OK,
 428,"CAMPOS DE LA MANCHA, SOC.COOP. DE CLM F72416050","3.2.2. KO. DV 2025. Numerous cigarette butts are observed both outside (dumping area) and inside (packaging material warehouse), and the smell of tobacco is detected in the dining area. Food wrappers (pastries) are detected next to the handling line. Hygiene regulations do not allow smoking on the premises or eating outside the designated areas. Repeated non-compliance with the previous audit.
  
- 4.14.3. MAYOR DV2025 Final product containers are stored outdoors without any protective measures. D","3.2.2, 5.5.1, 4.14.3, 4.14.5, 5.11.3, 4.18.4",MULTIPLE,
+ 4.14.3. MAYOR DV2025 Final product containers are stored outdoors without any protective measures. D","4.14.3, 4.18.4, 3.2.2, 5.5.1, 4.14.5, 5.11.3",MULTIPLE,
 430,CÁRNICAS IRUÑA S.A.,"During the recertification audit, a major nonconformity was detected in requirement 5.10.1.:
  
  The application of the non-conforming product management procedure PR02 Ed14 is not ensured, as observed in the plant and in the interview with the person in charge. Non-conforming products are not identified with the corresponding sign or stored in the assigned location (ham chamber), which does not guarantee their protection against use.
@@ -975,7 +975,7 @@
 442,LES MOULINS DE CHERISY-LETHUILLIER SAS,"During the audit and verification of the inventory records for a raw material, it was found that traceability was neither guaranteed nor documented for the batch of alpha amylase enzymes, product reference 5005, batch number 144500, with a best-before date of October 30, 2025. This batch was received in a quantity of 25 kg, but computer records show consumption of 3.3 kg of the product used for the manufacture of organic soil improver mixes. The inventory on the day of the audit showed a stock l",,MISSING,
 443,NAFA Feinkost GmbH,"KO 5.1.1: A risk assessment on the basis of which activities critical to food safety and product quality are audited more frequently is not available. An internal audit for process validation was planned in the area of management. Here, the relevant points for process validation were deleted. As a result, no effective internal audit programme has been documented, implemented and maintained to ensure that at least all standard requirements of the IFS standard are audited.
  
- KO 5.11.3: Not all co","4.4.1, 5.11.3, 5.1.1, 4.3.4",MULTIPLE,
+ KO 5.11.3: Not all co","4.3.4, 5.11.3, 4.4.1, 5.1.1",MULTIPLE,
 444,SANT DOMENEC-CENTRO POB SOCIEDAD COOPERATIVA,"MAJOR NC 5.4.1: The site has two scales for labeling bags with weight and price markings. These scales lack metrological verification. For example, the Ulma scale ID 2675. Furthermore, an assessment of the conformity of the TW scale, manufactured by GIROPES and serial number 3206000159, revealed its incompatibility for weighing 500g packages.",5.4.1,OK,
 445,CHARAL SURGELES,"During the IFS Food audit carried out from 24 to 26/11/2025, a KO was issued regarding requirement 5.11.3:
  1) Seven internal audit reports were observed: Design audit dated 18/11/2025; Purchasing audit dated 28/11/2024; Cleaning audit dated 19/11/2025; Ready-made meals audit dated 13 and 17/11/25; Stuffed products audit dated 8/7/2025. Deviations were observed. 18 actions were not defined 
@@ -983,7 +983,7 @@
 446,DeliBarn Wommelgem NV,"K.O. - 5.11.3 
  It has been established that the action list, used to follow up on actions arising from internal audits, internal findings, findings made by authorities, external audits, etc. has not been sufficiently followed up within acceptable time frames. Furthermore, the CAPA list used, does not show the immediate correction, only the preventive measure is described, and this is then in the longer term.",5.11.3,OK,
 447,SALICA INDUSTRIA ALIMENTARIA S.A.,"During the IFS Food unannounced audit performed from 17 to 20 November, the auditor has detected 2 KO Non Conformities and 1 Major Non Conformity in the following requirements: 2.3.9.1 (KO): The auditor performs a traceability exercise after selecting a product on the first day of the audit. 
- Product: FCO A CLARO A OLIVA 720x970ml CAMPOS; Batch LD203YO. Date of manufacture: 07/22/2025. Quantities manufactured: 1185 jars. It is defined in HACCP rev. 46 of 09/18/2025, after the corresponding haza","4.3.2, 5.11.3",MULTIPLE,
+ Product: FCO A CLARO A OLIVA 720x970ml CAMPOS; Batch LD203YO. Date of manufacture: 07/22/2025. Quantities manufactured: 1185 jars. It is defined in HACCP rev. 46 of 09/18/2025, after the corresponding haza","5.11.3, 4.3.2",MULTIPLE,
 448,CARNES Y VEGETALES SL,"4.12.1 KO: During the visit to the plant to audit the glass packaging process, pieces of glass from the containers were found on the floor of the filling machine where the product is opened, and a piece of glass was found inside the filling machine itself. There is no record of this breakage in the work reports, nor is there any evidence that the procedure for dealing with breakages has been followed, which involves removing 14 containers in front of and behind the broken container, thoroughly c",4.12.1,OK,
 449,"Alibona, a.s.","The following non-conformities have been raised during the IFS Food extension audit on 10-11-2025 at Alibona, a.s. - COID 17283.
  
@@ -1005,7 +1005,7 @@
 452,Bakery World Kft.,"During the audit completed on site on 03-04/12/2025 the following KOs were identified at:
  
  1.2.1 - KO
- There is a lack of resource allocation. During the audit, it was found that some tasks assigned to the quality manager had not been completed, such as preparing and uploading all specifications for the products produced by the owner's companies in Belgium and the Czech Republic to B2B portals, preparing the risk assessment of the service providers and reviewing the vulnerability assessment. I","1.2.1, 4.18.1",MULTIPLE,
+ There is a lack of resource allocation. During the audit, it was found that some tasks assigned to the quality manager had not been completed, such as preparing and uploading all specifications for the products produced by the owner's companies in Belgium and the Czech Republic to B2B portals, preparing the risk assessment of the service providers and reviewing the vulnerability assessment. I","4.18.1, 1.2.1",MULTIPLE,
 454,NAMET GIDA SANAYI VE TICARET A.S.,"The presence of a cat within the production and spice storage areas constitutes a serious violation of hygiene and food safety protocols, directly compromising product integrity and consumer safety.
  As per IFS Food Standard clause 4.13.1, such a finding is considered a Major Non-Conformity, warranting suspension of the certificate.",4.13.1,OK,
 455,MERIAN Foods Élelmiszeripari Kft.,Major NC 4.8.3.,4.8.3,OK,
@@ -1015,7 +1015,7 @@
 458,Kasteel GmbH,"1.2.1 KO Non-conformity
  The company management does not adequately monitor whether employees are fulfilling their responsibilities with regard to food safety and product quality.
  1) Knife basket no. 9 in the cutting room (area for hanging pigs) was unclean. The plant mana-ger informed the responsible cutter, who continued his cutting work unchanged after being instructed. 
- 2) Employees at the cutting table stored knife sharpeners and a knife in red E2 boxes with meat on the cutting conveyor b","1.2.1, 4.12.1, 5.11.3, 4.9.4.1",MULTIPLE,
+ 2) Employees at the cutting table stored knife sharpeners and a knife in red E2 boxes with meat on the cutting conveyor b","5.11.3, 4.9.4.1, 1.2.1, 4.12.1",MULTIPLE,
 459,COVI SAS,"Following the Integrity On-site Check audit on November 18, 2025, a MAJOR NC was issued for requirement 4.10.2:
  The cleaning plan does not guarantee that equipment and buildings are clean. Cleaning deficiencies have been observed on several occasions:
  - Presence of pieces of wood on the floor of the positive cold room
@@ -1058,7 +1058,7 @@
  this means that this compressed air has:
  - Classification 3 for particules: the number of particules per m3 ≤ 90.000 (particules between 0,5,μm - 1,0 μm) and ≤ 1000 (particules between 1,0 μm - 5,0 μm); 
  - Classification 4 for dew point: a Pressure dew point (°C) of ≤ +3ºC 
- - Classification 3 for oil: Oil (incl. oil vap","4.9.10.1, 5.11.3, 3.4.3",MULTIPLE,
+ - Classification 3 for oil: Oil (incl. oil vap","3.4.3, 4.9.10.1, 5.11.3",MULTIPLE,
 476,LIGHTIES SARL,Non-payment of audit invoice,,MISSING,
 477,Jac van den Oord Potatoes B.V.,"4.18.1 KO N° 7: A traceability system shall be documented, implemented and maintained that enables the identification of product lots and their relation to batches of raw materials, and food contact packaging materials, and/or materials carrying legal and/or relevant food safety information. The traceability system shall incorporate all relevant records of:
  • receipt
@@ -1069,7 +1069,7 @@
 478,JUMOSOL FRUITS S.L.,"During the recertification audit, the following was detected: 
  
  KO in requirement 1.2.1: It has been determined that management has not provided sufficient resources for the proper implementation and maintenance of the Quality and Food Safety Management System, as evidenced by the following points:
- - Some of the corrective actions established by the company in the previous audit have not been considered effective or have not been assigned the material or supervisory resources necessary for th","1.2.1, 4.13.4",MULTIPLE,
+ - Some of the corrective actions established by the company in the previous audit have not been considered effective or have not been assigned the material or supervisory resources necessary for th","4.13.4, 1.2.1",MULTIPLE,
 480,Bervini Primo S.r.l.,"Following a preliminary technical review and decision, the certificate is suspended for the following reason:
  . Typology and severity of non-conformities from the inspections of the ATS Val Padana authority on 23/10/2025 and 24/10/2025,
  . Notification of suspension of cutting operations at the Bervini Primo S.r.l. plant, Via Monasterolo 62/A, EU approval number IT R915K, in Borgo Virgilio (MN), issued by the competent Health Authority (note from the Veterinary Department and Animal Food Safety",1.2.6,OK,
@@ -1098,7 +1098,7 @@
  After packaging, the products intended to be pasteurized can be stored in a 4°C cold room for a few hours before thermal treatment in autoclaves.
  This observation was notably made on the first day of the audit (01/12) for the product 'queen-sized sealed device in a 220g sachet': packaging at 4 PM – storage in the fridge 4°C - autoclave passage at 7 PM.
  This potential cold storage step was not identified and analyzed in the HACCP study (see deviation 2.3.6.1)
- The company indicate","5.3.2, 4.10.7, 2.3.6.1, 5.3.1, 5.11.3",MULTIPLE,
+ The company indicate","5.3.1, 5.3.2, 2.3.6.1, 5.11.3, 4.10.7",MULTIPLE,
 491,Hogeslag Vleesverwerking B.V.,"During the audit completed on site on 17-18/11/2025 the following Major NCs was identified against the requirement 4.18.4:
  
   During the product changeover from carcasses of lot xxxx0955 (country of origin NL, supplier ESA) to lot xxxx0948 (country of origin DE, supplier FB), the labelling of the crates for the new batch was mixed up. The line clearance was released too early, resulting in meat from batch xxxx0955 being mixed with meat from batch xxxx0948. Additionally, at the start of the prod",4.18.4,OK,
@@ -1111,11 +1111,11 @@
  Paragraph 3.2.2/ KO: During the site inspection, two deviations from the standard requirements related to staff
  personal hygiene were observed: 
  1. A production employee was observed wearing a necklace. This employee works on the line where open products are handled. This does not comply with the company rules for personal hygiene requirements where is clearly stated that
- personnel must not wear jewellery or any i","5.11.3, 4.13.2, 3.2.2",MULTIPLE,
+ personnel must not wear jewellery or any i","3.2.2, 5.11.3, 4.13.2",MULTIPLE,
 495,Ticli's S.r.l.,"Ticli’s SRL (COID: 71384) has relocated from “Via Luigi Marsano 21 97100 Vittoria – Italy” to “Via del Carrubo 97019 Vittoria – Italy”. As operations at its current facility have stopped, its certificates have been withdrawn.",,MISSING,
 497,Pågen A/B,"During an Integrity on site check performed on Pagen AB (Coid: 72911) on 06 November 2025, was detected a Major Non Conformity on the requirement 4.13.2. 
  
- Description of the non conformity: Pest control system is not effective in the scope of flour specific pests control. In all pheromone traps checked during Integrity on-site Check there were found a lot of dead moths (checked traps were: in silos area – traps no. 419, 555, 554, 553, in dough for bread preparing area – trap no. 470, in the a","4.13.2, 4.10.2",MULTIPLE,
+ Description of the non conformity: Pest control system is not effective in the scope of flour specific pests control. In all pheromone traps checked during Integrity on-site Check there were found a lot of dead moths (checked traps were: in silos area – traps no. 419, 555, 554, 553, in dough for bread preparing area – trap no. 470, in the a","4.10.2, 4.13.2",MULTIPLE,
 498,Buscema Francesco Eredi S.n.c,Outstanding Payments,,MISSING,
 499,SALAISONS CELTIQUES SAS - Site de St Meen le Grand .,"Major non-compliance with requirement § 4.3.2
  -During the audit, the traceability test focused on the following product: ""Surprise de porc cuite goût fumé marinée au poivre et baies rose"", a private label product.
@@ -1128,7 +1128,7 @@
  Indeed, the post-harvest treatments Imazalil and wax E914 are listed, but the substances gibberellic acid and pyrimethanil have been omitted, which is not in accordance with Regulation 2023/2429 on marketing standards for fruit and vegetables.",4.3.2,OK,
 504,Alimenta Produzioni S.r.l.,temporary suspension of production due to lack of orders for this specific site (orders are covered by the other sites).,,MISSING,
 505,"GOURMET FOOD EXPERIENCE, S.L.U.","During the Integrity On-site check carried out on 2nd of December 2025, the auditor raised 4 Major NC in the following requirements: 1.2.2 There is no evidence that sufficient and appropriate resources to meet the product and process requirements are provided. Examples of incidences observed, besides other non conformities which are reported are:
- - There is no quality manager in the company since October 31st . Evidence of active search for replacement is dated 27 NOV 2025. The site manager ass","5.5.1, 1.2.2, 4.12.2, 4.18.1, 5.4.2, 5.11.3",MULTIPLE,
+ - There is no quality manager in the company since October 31st . Evidence of active search for replacement is dated 27 NOV 2025. The site manager ass","1.2.2, 5.5.1, 4.18.1, 5.11.3, 5.4.2, 4.12.2",MULTIPLE,
 506,AGRO BLEND GROUP SHPK,Outstanding Payment,,MISSING,
 507,Direct Packing Solutions Moerdijk B.V.,"As of today (21.11.2025) Certima BV withdraw the certificate number IFS – 01371 of client
  
@@ -1143,7 +1143,7 @@
  - 2.3.8.1 concerning the qualification of critical limits for CCPs,
  - 2.3.9.3 concerning the training of personnel responsible for monitoring CCPs,
  - 2.3.10.1: concerning control of corrective actions to be implemented in the event of loss of control of the CCP,
- - 4.10.6: concerning the provision of technical data sheets for cleaning products at the ","4.10.6, 2.3.8.1, 2.3.10.1, 2.3.9.3, 4.10.8, 5.11.3",MULTIPLE,
+ - 4.10.6: concerning the provision of technical data sheets for cleaning products at the ","2.3.10.1, 2.3.9.3, 4.10.8, 2.3.8.1, 4.10.6, 5.11.3",MULTIPLE,
 512,WildBran Lda,"Chapter 5.5 Quantity control monitoring
  5.5.1 Major:„No external legal metrological control for the nominal quantity of pre-packed products was carried out for finished products cookies (legislation Portaria nº57/2025 and Portaria n.º 374/2023)”.
  All the other family products were verified (seen certificates 201.81/25000996, 201.81/2501001 dated 10.03.2025. Results show conformity with the legal requirements).",5.5.1,OK,
@@ -1163,7 +1163,7 @@
  
  
  
- 4.17.4 – Major - (I) In the packing hall (potatoes), the paint or coating on the outside of the conveyor belt carrying the unpacked potatoes is peeling off. (","4.10.2, 3.2.5, 4.17.3, 4.17.4, 2.1.2.1, 4.10.5, 5.11.3, 4.9.4.1, 5.4.2",MULTIPLE,
+ 4.17.4 – Major - (I) In the packing hall (potatoes), the paint or coating on the outside of the conveyor belt carrying the unpacked potatoes is peeling off. (","3.2.5, 4.10.2, 4.17.3, 4.10.5, 2.1.2.1, 4.9.4.1, 4.17.4, 5.11.3, 5.4.2",MULTIPLE,
 529,LAITERIES H. TRIBALLAT - Usine Ultra Frais .,"KO on 1.2.1 : During this audit, shortcomings in compliance with site hygiene and quality rules were observed, failing to demonstrate the operators' awareness of their responsibilities regarding food safety:
  - On January 5, 2026, an operator on the glass packaging line was observed opening the sealing machine to remove unsealed cooked crème brûlée, without first disinfecting her hands.
  
@@ -1173,7 +1173,7 @@
  IFS Food v8 requirement: 5.11.4
  NC description:
  Corrective actions are formulated, documented in Manual Masters (QC & system deviations) or MES (engineering). Implementation of actions is followed up, however effectiveness of the corrective actions is not demonstrably tracked nor documented:
- 1) similar ","5.11.4, 4.12.2, 4.9.4.1",MULTIPLE,
+ 1) similar ","5.11.4, 4.9.4.1, 4.12.2",MULTIPLE,
 531,CAFE SATI SA,"Item : 5.5.1
  1) Regarding the production on November 28, 2025, of 225 g cans of Arabica espresso classico coffee without a metrological “e” (private customer), 1,133 UVC produced, no metrological validation of the batch was recorded. After verification, the average weight of the batch is 224.735 g, which is below the nominal quantity. This batch does not meet regulatory requirements in terms of pre-packaged metrology. 
  It should be noted that on this line (metal line), the volumes produced are",5.5.1,OK,
@@ -1191,16 +1191,16 @@
  
  See the list of issues: 
  Major deviations related to requirement 4.12.2: numerous situations that could cause product contamination were identified during the on-site audit (e.g. small fragments of adhesive tape, lubricant leakage, maintenance tools with missing parts).
- KO at requirement 4.18.1: The flow of information was inadequate to ensure traceability. The co","4.18.1, 4.12.2, 4.3.6, 4.13.2",MULTIPLE,
+ KO at requirement 4.18.1: The flow of information was inadequate to ensure traceability. The co","4.13.2, 4.18.1, 4.3.6, 4.12.2",MULTIPLE,
 536,BRIOCHE ET VIENNOISERIE THOMAS .,"The production site has multiple legal entities at one physical location with the same scope; the following rules apply: * one audit shall be performed * the certificate and report shall be duplicated for each legal entity * each legal entity shall have its own COID.
  
  Due to the result of the integrity programme, in which the last two reports were reviewed, and serious doubts were raised were raised about the maintenance of the certificate:
  
- 2024: the correct control of PCC2 (2.3.9.1), non-c","4.2.1.3, 4.2.1.5, 5.11.3, 4.19.2, 4.10.2",MULTIPLE,
+ 2024: the correct control of PCC2 (2.3.9.1), non-c","4.19.2, 4.2.1.5, 4.2.1.3, 4.10.2, 5.11.3",MULTIPLE,
 537,Edwin Grasmehr GmbH,"Major at 4.19.2
  Risk-based measures to prevent possible cross-contamination during processing could not be verified in the audit with regard to cleaning procedures:
  During the audit, a product containing cheese was processed in a cutter and then, after intermediate cleaning, a product without cheese (without milk protein) was processed on the same equipment. The audit did not provide any evidence of testing for possible traces of milk protein after intermediate cleaning.
- Similarly, there was ","4.19.2, 4.19.3",MULTIPLE,
+ Similarly, there was ","4.19.3, 4.19.2",MULTIPLE,
 538,FRUTOS SECOS MEDINA (MÓSTOLES) S.L,Formal communication from the client regarding the closure of the Móstoles plant due to the permanent cessation of its activity.,,MISSING,
 539,BODEGAS LUIS MARIN PARDOS S.L.,"The following non-conformities have been raised during the IFS Food v8 unannounced audit started on 14-01-2026 at BODEGAS LUIS MARIN PARDOS S.L. - COID 13584.
  After identification of the non-conformities, the company asked to stop the audit, thus the audit is considered cancelled as defined in IFS Food v8 Doctrine section 1-4.2.1.
@@ -1212,7 +1212,7 @@
 540,Brivio Salumificio S.r.l .,"Following Integrity on site check in date 14/01/2026 and after preliminary technical review and decision, the certificate is suspended for the following reasons:
  
  IFS Food Standard § 4.10.2 Major Nonconformity
- On the day of the IOC, the cleanliness and sanitation of the premises and facilities were found to be unsatisfactory as follows: Fresh meat reception area: black spots” on the ceiling ; Fresh meat storage room: black spots on the walls, ceiling panels, and cooling equipment; Processing ","4.19.3, 4.12.7, 4.9.4.1, 4.12.2, 4.2.1.2, 4.18.1, 5.11.3, 3.2.7, 4.19.2, 4.10.2",MULTIPLE,
+ On the day of the IOC, the cleanliness and sanitation of the premises and facilities were found to be unsatisfactory as follows: Fresh meat reception area: black spots” on the ceiling ; Fresh meat storage room: black spots on the walls, ceiling panels, and cooling equipment; Processing ","4.19.3, 3.2.7, 4.2.1.2, 4.19.2, 4.12.7, 4.18.1, 4.9.4.1, 4.10.2, 5.11.3, 4.12.2",MULTIPLE,
 541,Jizerské pekárny spol. s r.o.,"4.18.1 KO
  Failure in traceability system: When the traceability test was assigned on the first day of the audit on 7.1.2026 by the auditor, the product Sunflower Sliced Bread “Chléb slunečnicový krájený 500g” (packaged) with a best before date/batch of 07.01.26 was selected (from retail outlet). It was not clear from the documented production records (handwritten) from the bread bakery hall whether the product was produced and packaged on 2.1.2026 or 3.1.2026. There is no record of the packaged",4.18.1,OK,
 542,SAN MARTIN DE PORRES S.L.,"On the IFS V8 assessment conducted on January 20th & 21ST , one major NC was raised against req 4.13.2 with the following description:
@@ -1225,7 +1225,7 @@
 544,FROMAGERIE DU PAYS WELSCHE,Pending payments.,,MISSING,
 545,Horafrost NV,"There has been 1KO and 2 Major NC found during IFS Audit: 
  KO at 5.1.1 : During 2025, several internal audits were scheduled. The reports of the audits show limited information, and the non-conformities are limited. Eg Internal audit QMS/ Quality system dd 22/12/2025, 2 NC’s: person not washing hands, wall at tunnel L5 is dirty.
- The number of non-conformities and deviations found during this on-site audit demonstrates that the internal audit program clearly lacks in depth and thoroughness in e","5.1.1, 4.10.2, 4.21.2",MULTIPLE,
+ The number of non-conformities and deviations found during this on-site audit demonstrates that the internal audit program clearly lacks in depth and thoroughness in e","4.21.2, 4.10.2, 5.1.1",MULTIPLE,
 546,Italcanditi B.V.,"During the on-site IFS check on 23/01/2026, a non-conformance against requirement 5.11.3 was identified: some corrective actions have not been implemented, closed and validated. Evidence: The reception and storage of products; deviation from the previous IFS audit; and the company's corrective action list for internal and external actions, which contains 13 actions that are past their deadline and another 30 actions that need to be validated.",5.11.3,OK,
 547,TEC-AL SRL,Contract terminated,,MISSING,
 548,TERREMERSE SOC. COOP.,"Following Integrity on site check in date 13/01/2026 and after preliminary technical review and decision, the certificate is suspended for the following reasons:
@@ -1276,7 +1276,7 @@
 563,Merlini S.r.l.,Outstanding Payments,,MISSING,
 564,Cavas J Hill SL,"KO_2.3.9.1:
  The company has defined CCP2 as the control of the rinse water pressure for empty glass bottles prior to filling, with a monitoring frequency at the start of production, middle, and at the end of the process. This control is performed through inspection of the pressure gauge of the empty bottle rinsing equipment and applies to both empty still wine bottles and empty sparkling wine bottles.
- During the on site plant inspection carried out on 22-01-2026, it was observed that the bottl","4.15.7, 4.12.7, 4.4.6, 4.14.6, 4.5.3, 4.13.4, 5.4.1, 4.17.4, 5.11.3, 3.3.3",MULTIPLE,
+ During the on site plant inspection carried out on 22-01-2026, it was observed that the bottl","4.15.7, 4.13.4, 4.14.6, 3.3.3, 4.12.7, 4.4.6, 5.4.1, 4.17.4, 5.11.3, 4.5.3",MULTIPLE,
 567,Easyfood A/S,"During the audit completed on site on 14/01/2026 to 16/01/2026 the following Major NCs was identified at requirement 3.3.2:
  Several cases of inadequate training:
  1: It was observed how an employee at line 3, when performing the metal detector test, was handling the packed product in an unhygienic manner like picking them up from the floor or placing them on the edge of the waste bin, before putting them back on the line.
@@ -1285,7 +1285,7 @@
 571,"MANUFACTURAS Y SERVICIOS AGRICOLAS, S.L S.L","During the IFS Food v.8 audit performed from 12/01/2026 to 14/01/2026 was detected 1 Major No-conformity. Requirement 4.3.2. Description: During the audit, various labels corresponding to products manufactured and marketed by the company were reviewed. Legal non-compliance was detected in the mandatory information provided to the consumer (Regulation 1169/2011 and Regulation 2023/2429), revealing deficiencies in the system for creating and validating labels prior to the start of customer orders ",4.3.2,OK,
 572,Simmental Switzerland AG,"Elsa Group SA Molkerei Diemtigtal and Simmental Switzerland AG have merged. A new customer has been created in the database: Elsa Group SA, Standort Oey",,MISSING,
 573,MAISON LECOUFFE SARL,"KO: Item 4.18.1
- Libellé : Lors de l’audit du stock emballage, il a été constaté que les actions correctives qui devait être mise en place suite à la déviation 4.14.5 identifiée lors de l’audit IFS Food v8 précédent, pour améliorer la gestion FIFO des lots emballages n’avaient pas été mise en place de façon complètes et efficaces (plusieurs référence emballage sans l’étiquetage de la date de réception nécessaire pour gérer le FIFO) et fichier d’enregistrement des n° lots de lots sortie du stock ","4.18.1, 4.14.5, 5.6.5",MULTIPLE,
+ Libellé : Lors de l’audit du stock emballage, il a été constaté que les actions correctives qui devait être mise en place suite à la déviation 4.14.5 identifiée lors de l’audit IFS Food v8 précédent, pour améliorer la gestion FIFO des lots emballages n’avaient pas été mise en place de façon complètes et efficaces (plusieurs référence emballage sans l’étiquetage de la date de réception nécessaire pour gérer le FIFO) et fichier d’enregistrement des n° lots de lots sortie du stock ","4.14.5, 4.18.1, 5.6.5",MULTIPLE,
 575,Colusso Industriedienstleistungen GmbH,"Corrective measures were not implemented as soon as possible
  to prevent the recurrence of non-conformities. E.g.
  a) The internal audit was carried out in great detail on 17 December 2024 /
@@ -1320,7 +1320,7 @@
 588,CILER s.r.o.,"On 27 JAN 2026 an Integrity On-site check was carried out at the company CILER s.r.o. - COID 76923.
  In this Integrity On-site Check, two Major non-conformities were identified against the following IFS-Food v8 requirements:
  
- - 4.2.1.5_ Claim “country of origin of flour Slovakia” is used on packaging of product Zemiakové lokše 400g own brand Maťko a Kubko. Last production of this product was on 09 DEC 2025 for one retailer, flour from Hungary was used. As all these products are distributed by ","4.3.2, 4.1.3, 4.2.1.5",MULTIPLE,
+ - 4.2.1.5_ Claim “country of origin of flour Slovakia” is used on packaging of product Zemiakové lokše 400g own brand Maťko a Kubko. Last production of this product was on 09 DEC 2025 for one retailer, flour from Hungary was used. As all these products are distributed by ","4.1.3, 4.2.1.5, 4.3.2",MULTIPLE,
 590,KOYASAN FOODS PENINSULA S.L.U.,"During the audit performed on 26th January 2026 to 29th January 2026, it was detected a KO under the requirement 2.3.9.1.
  
  KO 2.3.9.1.
@@ -1336,7 +1336,7 @@
  Escudostraat 6g, 2988 CS Ridderkerk, Netherlands, COID: 83573.
  Reason: During the first day audit in period 15-16.01.2026, auditor raised Major and KO non-conformity.
  KO on 4.12.1:
- Deviation: During the demonstration of pistachio paste filling it was observed that the glass jars were picked op with fingers in the jar (no gloves were used) and there was no manually turn executed prior to fil","4.12.1, 4.10.1",MULTIPLE,
+ Deviation: During the demonstration of pistachio paste filling it was observed that the glass jars were picked op with fingers in the jar (no gloves were used) and there was no manually turn executed prior to fil","4.10.1, 4.12.1",MULTIPLE,
 598,EXPLOTACIÓN AGRÍCOLA GUILLÉN SA,"During the audit carried out on 13th and 14th of January, the auditor raised a Major NC in the requirement 5.4.2: During the audit, it could not be documented that the final weight control scale had undergone official metrological verification in the last two years, as required by Order ICT/155/2020.",5.4.2,OK,
 600,SICODIS SICA-SAS,"The complaint lodged by distributor S with the IFS services was investigated: following a shortage of customer brand labels at Sicoly, trays of cherries with labels that did not comply with the distributor's label design were placed on the market by Sicodis (a processing subsidiary of the Sicoly fruit cooperative, also responsible for marketing fresh fruit packaged by the Sicoly cooperative): labelling by Sicoly on 14 June with a label that had not been approved at the request of the sales depar","1.2.4, 4.1.3",MULTIPLE,
 601,Next Food S.r.l.,"Following the certification inspection on January 14, 15, and 16, 2026, and following a preliminary technical review, the certificate is withdrawn.
@@ -1351,7 +1351,7 @@
  
  2024: the correct control of PCC2 (2.3.9.1), non-conformities regarding cleanliness, accumulation of residues in certain equipment that may pose a direct risk of product contamination (4.10.2), and no Major or KO issues were raised during the audit.
  
- About the 2025 audit, one of the deviations explains that expired le","4.2.1.3, 4.2.1.5, 5.11.3, 4.19.2, 4.10.2",MULTIPLE,
+ About the 2025 audit, one of the deviations explains that expired le","4.19.2, 4.2.1.5, 4.2.1.3, 4.10.2, 5.11.3",MULTIPLE,
 604,Allnature s.r.o.,"Major nonconformity to requirement 4.12.9:
  Glass fragments were found on the closing machine of the peanut butter filling line in close proximity to open jars prior to sealing. The glass breakage occurred at approximately 10:30. Following the incident, partial cleaning was carried out by production personnel.
  After this partial cleaning, production was resumed. At the time of the auditor’s observation at 11:15, the line was in operation and open jars were present on the line. No glass fragment",4.12.9,OK,
@@ -1361,12 +1361,12 @@
  1. Poor practices of apron (protective clothing) usage at wet section – clause 3.2.2
  2. Inadequate door controls - emergency exit door - wet section – clause 4.9.6.2
  3. Wall damages in processing sections – clause 4.9.2.2
-","4.10.2, 3.2.2, 4.9.2.2, 4.13.4, 5.11.3, 4.21.2, 4.9.6.2",MULTIPLE,
+","3.2.2, 4.13.4, 4.9.6.2, 4.21.2, 4.10.2, 5.11.3, 4.9.2.2",MULTIPLE,
 606,Bio-Frost Westhof GmbH,"Requirement 1.2.1 – KO: 
  The company management did not ensure that employees in packaging and production were aware of their responsibilities with regard to food safety and product quality, as they did not adequately document the checks at the control points and were unable to fully explain how they were carried out (see 2.3.9.4).
  
  Requirement 5.11.3 – KO:
- Not all Corrective Actions were fulfilled in such a way as to prevent the recurrence of deviations and non-conformities. On 3 September ","4.16.1, 4.8.2, 5.5.1, 4.9.6.3, 2.3.9.4, 1.2.1, 4.9.3.3, 3.4.6, 5.2.1, 5.6.2, 5.11.3",MULTIPLE,
+ Not all Corrective Actions were fulfilled in such a way as to prevent the recurrence of deviations and non-conformities. On 3 September ","4.8.2, 4.9.6.3, 1.2.1, 3.4.6, 5.2.1, 2.3.9.4, 5.5.1, 4.16.1, 5.6.2, 4.9.3.3, 5.11.3",MULTIPLE,
 608,Fleischcenter Perleberg GmbH & Co. KG,closure and discontinuation of production,,MISSING,
 609,Zakład Przetwórstwa Mięsnego KIERAKOWICZ Adam Kierakowicz .,Audit was cancelled based on company decision taken by 2nd day of the audit.,,MISSING,
 610,BRF S.A.,"During the current IFS Food audit done on 19.- 22. January was detected a NC at Requirement 4.9.4.1 
@@ -1385,7 +1385,7 @@
  The labeled nominal volume for the private label customer fondue oil is 1000 ml. The recipe for this product consists of a mix of oil and a bouquet of aromatic herbs weighing 4 g. The nominal volume indicated on the METTLER weighing tool specifies a compliant nominal volume for packaging line based on 985 ml of oil, by adding the 4 grams of herbs present in the bottle, converted to ml using the density coefficient specified by ",4.1.3,OK,
 617,"Gelagri Ibérica, S.L.","In the IFS Food announced recertification audit performed on 09.02.2026 to 12.02.2026, 1 MAYOR Scoring non-conformity was identified on requirement 1.1.1:
  
- It was detected failure in food quality culture. During the second day for the audit tour in sweet potatoes selection area was verified that the product was selected by Sortex equipment and manual selection by two operators. The auditor visually verified that the product had dark spots. When the auditor asked about quality control in the la","4.9.2.2, 1.1.1, 5.11.3, 4.9.4.1",MULTIPLE,
+ It was detected failure in food quality culture. During the second day for the audit tour in sweet potatoes selection area was verified that the product was selected by Sortex equipment and manual selection by two operators. The auditor visually verified that the product had dark spots. When the auditor asked about quality control in the la","1.1.1, 4.9.4.1, 5.11.3, 4.9.2.2",MULTIPLE,
 618,Andriani S.P.A.,"On 5-February -2026 an IFS Integrity On-site check was carried out where KO Nonconformity was issued against the following IFS-Food v8 requirement: 
  3.2.2 (D)KO : Personal hygiene requirements must be understood and applied by all relevant staff, contractors and visitors.
  RINA decided to investigate the case and conducted an unannounced extra audit on site on 12/02/2026. 
@@ -1394,7 +1394,7 @@
  Reason:
  During unannounced audit conducted 05/06.02.2026 auditor raised 2 Majors:
  Major on 4.9.4.1: 
- 1) During the factory assessment condensation on the ceiling observed at raw materials storage area. All pallets with products were covered during the assessment. Topic was addressed by the company and a renovation plan by maintenance department is in place for ","4.12.2, 4.9.4.1",MULTIPLE,
+ 1) During the factory assessment condensation on the ceiling observed at raw materials storage area. All pallets with products were covered during the assessment. Topic was addressed by the company and a renovation plan by maintenance department is in place for ","4.9.4.1, 4.12.2",MULTIPLE,
 620,CHAVEGRAND S.E.,"Following an epidemiological investigation, the health authorities (DDPP, DGAL/MUS) have established that the company is involved in cases of listeriosis in France and Europe (cluster 714).
  This resulted in recalls on June 13, 2025, and August 9, 2025, linked to the detection of Listeria monocytogenes in a pasteurized soft cheese.
  In accordance with the IFS Food standard, we suspend the certification with effect from August 22, 2025. Following an audit carried out on the premises on August 27,",,POTENTIAL_MISS,
@@ -1402,7 +1402,7 @@
  The finished product verified during the audit (traceability test) is: Sesame bagels 4x85g PL for customer A. Specifications signed on 15/11/2023. Internal recipe code: 6BG023.
  The recipe in the specifications and the list of ingredients in the packaging indicate a quantity of sesame seeds of 3%.
  A KO rating is assigned because there was not sufficient evidence to ensure that the 3% rate was systematically respected for this product:
- - there is no instruction on line indicating t","2.1.1.3, 4.14.5, 5.4.1, 5.3.1, 2.3.9.2, 5.11.3, 4.10.2, 4.1.3",MULTIPLE,
+ - there is no instruction on line indicating t","4.1.3, 2.3.9.2, 5.3.1, 2.1.1.3, 5.4.1, 4.14.5, 4.10.2, 5.11.3",MULTIPLE,
 622,Wendland Spice & Food GmbH,"After the auditor identified a nonconformity in section 4.18.1, the company terminated the audit on the second day of the audit (February 12, 2026).
  
  NON-CONFORMITY (4.18.1)
@@ -1441,7 +1441,7 @@
  - Frequency of internal m",4.13.1,OK,
 630,Palmieri S.R.L.,"During the IFS Integrity on-site check, conducted on February 3, 2026, by an auditor appointed by IFS, the following were found:
  - 1 KO requirement 3: 3.2.2 (During the IOC, cigarette butts were found inside the facility on the mezzanine area used for packaging materials and refrigeration equipment. The issue was linked to external maintenance, without proper visitor registration or documented post-maintenance cleaning.
- - 1 KO requirement 4.18.1 (During the IOC, the traceability system was fou","4.18.1, 4.8.2, 3.2.2",MULTIPLE,
+ - 1 KO requirement 4.18.1 (During the IOC, the traceability system was fou","4.8.2, 3.2.2, 4.18.1",MULTIPLE,
 632,ESTUCHADOS LARHAZ S.L.,"During the audit performed on 3rd February 2026 to 4th February 2026 , it was detected a Major non-conformity under the requirement 4.3.2.
  
  Major non-conformity 4.3.2.
@@ -1456,7 +1456,7 @@
   
  The technical data",4.3.2,OK,
 636,Adriaticon d.o.o.,"During the last audit by Certification Body 1 Knock Out raised in paragraph 5.11.3: Several repeated deviations were identified during the audit, demonstrating that the corrective actions defined and implemented after previous audits were not effective in preventing recurrence.
- -In the olive processing area, visible dirt deposits, which had started to flake, were observed in the upper left corner of the wall, at the same location as identified during the previous audit, related to requirement 4","5.11.3, 4.7.1, 4.9.4.1, 3.4.2",MULTIPLE,
+ -In the olive processing area, visible dirt deposits, which had started to flake, were observed in the upper left corner of the wall, at the same location as identified during the previous audit, related to requirement 4","3.4.2, 4.9.4.1, 5.11.3, 4.7.1",MULTIPLE,
 638,Conservas de Autor S.A,"A Major non-conformity was raised during the IFS Food audit on February 4-6, 2026.
  Description of the Major NC:
  Clause 4.13.1:
@@ -1468,7 +1468,7 @@
  This con",4.3.2,OK,
 642,Heinrich Abelmann GmbH,"4.8.2 Major:
  The delicatessen department produces its own mayonnaise for delicatessen salads. Two machines are used for this purpose. Currently, mayonnaise is only produced on the small machine. The large machine has not been used for around six months. 
- During an inspection of the water pipe/stainless steel pipe on the small machine, black deposits/residue were found in the pipe. The inside of the pipe is not sufficiently clean. This is unacceptable, especially for a sensitive product such as","4.18.1, 4.8.2, 4.10.1",MULTIPLE,
+ During an inspection of the water pipe/stainless steel pipe on the small machine, black deposits/residue were found in the pipe. The inside of the pipe is not sufficiently clean. This is unacceptable, especially for a sensitive product such as","4.8.2, 4.18.1, 4.10.1",MULTIPLE,
 644,House of Denmark A/S,"During the audit completed on site on 18-19-20/02/2026 the following Major NCs were identified:
  
  4.12.8: No specific process (turn/blow/rinse) implemented to ensure that glass fragments are excluded during filling process and no further mitigation are in place to eliminate the risk of contamination. In addition it was observed during audit that a metal plate used for positioning of glass where ""hitting"" on top of the open glasses and could cause a contamination risk.
@@ -1478,7 +1478,7 @@
  1) A range of turkey cut products sold under a private label in the LS department bears the metrological “e” mark next to the net weight. The company does not apply all the legal requirements associated with this marking in order to demonstrate weight control throughout the packag",5.5.1,OK,
 648,LATTERIE RAGUSANE S.R.L,"On 16-February -2026 an IFS Integrity On-site check was carried out where some critical issues were identified against the following IFS-Food v8 requirements: 
  2.3.9.1 (D)KO : During the IOC, the CCP ""Metal Detector"" monitoring of the 510g Mozzarella bag (3 x 90g) carried out at 10:50 a.m. was failed.
- 4.2.1.1 Major: Given that the technical specifications for pasta filata cheese made with citric acid does not include the use of calcium chloride (E 509) and that this substance is not listed in ","4.8.3, 4.2.1.1",MULTIPLE,
+ 4.2.1.1 Major: Given that the technical specifications for pasta filata cheese made with citric acid does not include the use of calcium chloride (E 509) and that this substance is not listed in ","4.2.1.1, 4.8.3",MULTIPLE,
 649,Piekarnictwo-Cukiernictwo Wielgomłyny Przemysław Nowak,Company has cancelled the agreement with CB.,,MISSING,
 650,Noire (Via Giberte) S.r.l.,Certificate revocation following company notification and preliminary technical review; reason: cessation of production site activity,,MISSING,
 651,NUTCOR NUTRIENTS S.L.U.,"Repeated non-compliance with the requirements necessary to maintain the food safety management system and the IFS Food standard, due to the fact that the storage conditions of raw materials outside the facilities are not adequate. Furthermore, it has been observed on numerous occasions that the entrance gates to the factory remain open, which poses a high risk of contamination, pest intrusion, and the emission of odors. This situation is particularly aggravated when product is kept at ambient te",,POTENTIAL_MISS,
@@ -1507,7 +1507,7 @@
  
  Req. 2.3.9.1 (Deviation D in KO): During the evaluation carried out on January 29th, 2026, in the metal detection step identified as a CCP, it was observed that the product coho salmon fillet with skin, frozen, vacuum-packed, lot 084872, was being passed through the metal detector at around 9:30 am.
  
- Upon checking the CCP monitoring records (PAC PLAN 20.B1 and PAC PLAN 20","4.14.2, 5.3.2",MULTIPLE,
+ Upon checking the CCP monitoring records (PAC PLAN 20.B1 and PAC PLAN 20","5.3.2, 4.14.2",MULTIPLE,
 663,HALAL GUDA DONER KEBAP d.o.o.,"during current Unannounced audit IFS Food (planned 03.-05.02.2026, cancelled during second day on request of the client) – auditor Stanislav Bradeško; witness auditor Anže Brejc , detected:
  
  KO scoring on the requirement 2.3.9.1:
@@ -1522,7 +1522,7 @@
 668,Caseificio Silvio Boi s.r.l.,"On 29-January-2026 an IFS Integrity On-site check was carried out where 8 non-conformities were identified against the following IFS-Food v8 requirements: 
  2.3.9.1 (D)KO : Given that the company does not operate every day, the temperature traces relating to the monitoring of CCP1 ""pasteurization"" are not always available 
  4.2.1.5 Major: The production process for lactose-free products is not completed and not fully documented.
- 4.3.2 Major: Some “lactose free” cheeses labels are not in complia","4.8.2, 4.17.2, 4.3.2, 4.2.1.5, 4.14.5, 4.18.1, 5.11.3",MULTIPLE,
+ 4.3.2 Major: Some “lactose free” cheeses labels are not in complia","4.8.2, 4.3.2, 4.2.1.5, 4.18.1, 4.17.2, 4.14.5, 5.11.3",MULTIPLE,
 669,Finest Meat Sp. z o.o.,Certificate is held due to the lack of payment,,MISSING,
 671,HIGH QUALITY FOOD S.p.A S.p.A.,"Major Non-Conformity requirement 4.12.4 
  ""THE METAL DETECTOR CONTROLLING THE CCP FOREIGN BODIES IS NOT VERIFIED (E.G. VERIFICATION OF FUNCTIONALITY BY A COMPETENT EXTERNAL COMPANY) IN THE LAST THREE YEARS""",4.12.4,OK,
@@ -1539,19 +1539,19 @@
  
  NC K.O. 2.3.9.1 
  
- During the visit to the plant, in the pineapple handling area, the metal detector screen displayed ""pending error."" The conveyor belt did not stop, there was no visual or audible alarm, and no member of staff present on the line noticed the issue. As a result, the product continued to pass through, be weighed, and packaged, affecting batch 049: whole ","4.16.1, 4.9.2.2, 4.9.3.2, 4.9.3.1, 4.9.2.3, 4.17.4, 5.11.3, 4.9.4.1, 4.12.6",MULTIPLE,
+ During the visit to the plant, in the pineapple handling area, the metal detector screen displayed ""pending error."" The conveyor belt did not stop, there was no visual or audible alarm, and no member of staff present on the line noticed the issue. As a result, the product continued to pass through, be weighed, and packaged, affecting batch 049: whole ","4.12.6, 4.9.2.3, 4.9.3.1, 4.9.3.2, 4.16.1, 4.9.4.1, 4.17.4, 5.11.3, 4.9.2.2",MULTIPLE,
 677,LACTO SINELLI SRL,"The following Non-conformities have been raised during the IFS Food version 8 audit from 02.02.2026 to 04.02.2026 at LACTO SINELLI SRL - COID 76358.
  
  Non-conformity type: Major non-conformity
  IFS requirement: 4.5.2
  NC description:
- During the onsite assessment, deficiencies were identified regarding the control, documentation, and verification of food contact materials. During the onsite visit of the final product storage warehouse, it was observed that whey cheese (lot no. 034, best before ","4.8.2, 4.12.7, 5.6.1, 5.11.3, 4.18.1, 5.1.2, 4.5.2",MULTIPLE,
+ During the onsite assessment, deficiencies were identified regarding the control, documentation, and verification of food contact materials. During the onsite visit of the final product storage warehouse, it was observed that whey cheese (lot no. 034, best before ","4.18.1, 4.8.2, 4.5.2, 5.6.1, 5.11.3, 5.1.2, 4.12.7",MULTIPLE,
 678,GUSTO MUNDIAL BALEARIDES SL,The company stops production at this site,,MISSING,
 679,FRIMAR PANADEROS S.L.,"Mayor NC against 4.13.2: Preventive measures implemented by the company to avoid pest are not enough.
  Findings: during the plant visit, inside the powder egg silo (vessel) of L21-22, one live lepidoptera was seen in contact with the product. The company immediately did empty the silo and retained the possible affected product, but it was not possible to ensure that other products could have been affected.
  In addition, in the upper area of production Line L23, where other vessels with micro-ing",4.13.2,OK,
 680,Kirn Production SAS,"During the audit from January 26 to 30, 2026, a KO was raised on item 5.11.3 : Various shortcomings in the follow-up of corrective actions were identified during the audit:
- -The follow-up of the action plan resulting from the last IFS audit is insufficient. The corrective actions defined have not always prevented the recurrence of deviations. In fact, during the IFS 2025 audit, 32 deviations were identified. During the current audit, of the 32 deviations, 15 have been resolved and 17 are either","5.11.3, 4.8.2, 2.3.5.1, 2.3.6.1",MULTIPLE,
+ -The follow-up of the action plan resulting from the last IFS audit is insufficient. The corrective actions defined have not always prevented the recurrence of deviations. In fact, during the IFS 2025 audit, 32 deviations were identified. During the current audit, of the 32 deviations, 15 have been resolved and 17 are either","4.8.2, 5.11.3, 2.3.6.1, 2.3.5.1",MULTIPLE,
 681,BODEGAS RIOJANAS (centro Cenicero) S.A.,NSF has been made aware by the site that the facility will drop the IFS Food certification.,,MISSING,
 682,CIOLI EGIDIO S.R.L.,"On 03 February-2026 an IFS Integrity On-site check was carried out where 2 non-conformities were identified against the following IFS-Food v8 requirements: 
  
@@ -1561,7 +1561,7 @@
  “Salmon burgers Gondamar branded includes in label Free from Gluten, Free from Lactose and Free from egg claims and no measures are implemented to demonstrate compliance with such declarations as performance of regular test to verify absence in final product neither formal studies to justify the absence of such allergens in final product. ",4.2.1.5,OK,
 684,ORMA. S.r.l.,"Following the IFS Integrity On-site Check conducted on February 17, 2026, at ORMA SRL, one (1) Knock-out (KO) and three (3) Major non-conformities were identified. The relevant clause numbers are as follows: 
  
- 4.12.1 – KO: Given that the company does not have foreign body detection devices (sieves, filters, metal detectors/X-rays) and the only control measure to ensure the absence of foreign materials in the finished product is visual inspection during processing), during the audit, the follow","4.14.5, 4.12.1, 4.17.2, 4.3.2",MULTIPLE,
+ 4.12.1 – KO: Given that the company does not have foreign body detection devices (sieves, filters, metal detectors/X-rays) and the only control measure to ensure the absence of foreign materials in the finished product is visual inspection during processing), during the audit, the follow","4.14.5, 4.17.2, 4.12.1, 4.3.2",MULTIPLE,
 685,OLMO MAZCUÑAN S.L.,"In the audit carried out by OCA GLOBAL on 10,11-02-2026, a MAJOR nonconformity was raised against requirement 4.5.2 with the following description: 
  The company purchases the product “shiimeji marrón” already packed in its final packaging (plastic tray sealed with film) from two suppliers: Fujixx Ningxxx Yongx Traxxx (China) and Laumoxxx (national supplier).
  The product is received fully packaged, with no handling of the product being carried out. In both cases, the supplier’s original tray is",4.5.2,OK,
@@ -1569,7 +1569,7 @@
  
  • KO rating for requirement 3.2.2: During the plant visit, the following hygiene breaches were detected:
  - Evidence of smoking inside the facilities (tobacco odor and a cigarette butt inside the trash can near the production line).
- - Evidence of eating in the production area (candy remains in the trash can on the production line and an o","3.2.2, 5.5.1, 2.3.9.4",MULTIPLE,
+ - Evidence of eating in the production area (candy remains in the trash can on the production line and an o","3.2.2, 2.3.9.4, 5.5.1",MULTIPLE,
 688,Tasco Gıda ve Danışmanlık San. Tic. Ltd. Şti. Akhisar Site .,"Tasco Gıda ve Dan. San. Tic. Ltd. Şti. (COID: 84195) company’s IFS Food v8 certification process audit conducted on 17–18–19 December 2025 is currently in the certification stage; however, since we have not yet received the payment for this stage, we are unable to finalize the certification procedures.
  
  In this context, your certificate/letter of confirmation has been temporarily suspended until the payment is completed.",,MISSING,
@@ -1578,14 +1578,14 @@
 690,Società Semplice Agricola Filiera Fusero Società Semplice Agricola,"Following Integrity on site check in date 13/02/2026 and after preliminary technical review and decision, the certificate is suspended for the following reasons:
  
  § 2.1.2.1 Major Nonconformity
- On the day of the IOC, the following records required by the HACCP Plan and the Quality Management System were not up to date: ## Statistical weight control on final products: last records made on 04-FEB-2026(the weight check of productions made subsequently, e.g. panna cotta batch26035, was not recorde","5.4.1, 4.19.3, 2.1.2.1",MULTIPLE,
+ On the day of the IOC, the following records required by the HACCP Plan and the Quality Management System were not up to date: ## Statistical weight control on final products: last records made on 04-FEB-2026(the weight check of productions made subsequently, e.g. panna cotta batch26035, was not recorde","4.19.3, 2.1.2.1, 5.4.1",MULTIPLE,
 691,CAFES CIVIT S.A.,"During the audit carried out on 04th and 05th of February 2026, the auditor raised a Major NC in the requirement 4.3.2: During the audit, it was verified that there are labels with incorrect information related to the actual packaging date, e.g.: COFFEE BEANS CUSTOMER BRAND 1.5 KG L: 260825. Information indicated on the label: Packaging date 26/08/2025. Actual packaging dates: 03-06-08-10/10/25",4.3.2,OK,
 692,Pmsweet SA,"Major NC on req 5.4.1
  The weight checks of finished products of foams are carried out by sampling on a remote scale followed in legal metrology: balance EMB-06-EMB.
  * Major NC:
  The measurement scale of the EMB-06-EMB is e=1g while the foam labels indicate a net weight of 85g accompanied by the metrological 'e'.
  For weights between 50g and 200g, the measurement scale required by the regulation is e=0.5g.
- A Major NC is assigned because the balance EMB-06-EMB is not suitable for legal checks o","5.4.1, 5.10.2",MULTIPLE,
+ A Major NC is assigned because the balance EMB-06-EMB is not suitable for legal checks o","5.10.2, 5.4.1",MULTIPLE,
 699,ARC Integrity s.r.o.,"Non-payment of invoice No. 2554006330 for the IFS Food audit – see IFS Food Standard v.8, chapter 4.3.1.",4.3.1,OK,
 700,SOCIETE AGROPALM SARL,"MAJOR non-compliance with requirement 4.13.4:
  During the workshop visit, two birds were observed in the pitting room, which is a production area posing a direct risk to the product (uncovered products in this area).
@@ -1601,7 +1601,7 @@
  
  2.3.9.1 *On the second day of the audit, products that had been produced and were taken to the cold room for cooling. No CCP records were kept for these products. Cooling is CCP for process.
  
- *When the Cooking - CCP records were examined, the cooking temperature was written as a minimum of 90°C on the form, while the","4.12.1, 4.9.8.3, 4.8.2, 5.6.3, 4.2.1.3, 1.2.1, 5.11.4, 5.6.2, 5.6.1, 4.14.1, 5.11.3, 4.19.2, 4.10.2",MULTIPLE,
+ *When the Cooking - CCP records were examined, the cooking temperature was written as a minimum of 90°C on the form, while the","4.8.2, 1.2.1, 5.11.4, 4.9.8.3, 4.19.2, 5.6.1, 4.12.1, 4.2.1.3, 5.6.3, 4.14.1, 4.10.2, 5.11.3, 5.6.2",MULTIPLE,
 707,ÖZTÜRK FINDIK GIDA SAN.LTD.ŞTİ ÖZTÜRK FINDIK GIDA SAN.LTD.ŞTİ,Failed Audits,,MISSING,
 708,FRUITS 1870 .,"MAJOR 1
  Item : 5.3.1

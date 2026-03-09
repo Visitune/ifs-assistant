@@ -73,23 +73,40 @@ print(f"  -> {len(df)} lignes IFS Food")
 # ============================================================
 print("\n=== Étape 2: Parsing du Lock reason ===")
 
-# Charger les corrections manuelles si elles existent
+# Charger les corrections manuelles et le diagnostic
 OVERRIDE_PATH = Path("mapping_corrected.csv")
+REVIEW_PATH = Path("mapping_review.csv")
+
 overrides = {}
 if OVERRIDE_PATH.exists():
     print(f"  -> Chargement des surcharges depuis {OVERRIDE_PATH}...")
     df_over = pd.read_csv(OVERRIDE_PATH)
-    # On crée un mapping index -> exigence(s)
     for _, r in df_over.iterrows():
         if pd.notna(r["Corrected_Requirement"]) and str(r["Corrected_Requirement"]).strip() != "" and str(r["Corrected_Requirement"]).upper() != "AUCUNE":
             overrides[int(r["Original_Index"])] = str(r["Corrected_Requirement"])
     print(f"     ({len(overrides)} surcharges actives)")
+
+review_status = {}
+if REVIEW_PATH.exists():
+    print(f"  -> Chargement du diagnostic depuis {REVIEW_PATH}...")
+    df_rev = pd.read_csv(REVIEW_PATH)
+    for _, r in df_rev.iterrows():
+        review_status[int(r["Original_Index"])] = str(r["Status"])
+    print(f"     ({len(review_status)} status de diagnostic identifies)")
 
 def parse_lock_reason(lock_reason, ifs_numbers, row_index=None):
     """
     Parse le champ Lock reason. 
     Priorise le dictionnaire de surcharge si row_index est fourni.
     """
+    # 1. Verification du status Diagnostic (Nouveau)
+    if row_index is not None and row_index in review_status:
+        status = review_status[row_index]
+        if status in ["MISSING", "POTENTIAL_MISS"]:
+            # On ne parse pas ces lignes pour le RAG (elles seront traitees a part)
+            return []
+
+    # 2. Verification de la surcharge manuelle
     if row_index is not None and row_index in overrides:
         # Utiliser la surcharge
         req_numbers = [n.strip() for n in overrides[row_index].split(",")]
@@ -145,13 +162,24 @@ def parse_lock_reason(lock_reason, ifs_numbers, row_index=None):
 
 # Parser chaque ligne
 parsed_entries = []
-stats = {"total_rows": 0, "rows_with_parsed": 0, "total_reqs": 0}
+potential_misses_rows = []
+stats = {"total_rows": 0, "rows_with_parsed": 0, "total_reqs": 0, "skipped_missing": 0, "potential_misses": 0}
 # Compteur global pour les IDs uniques
 global_counter = 0
 
 for idx, row in df.iterrows():
     stats["total_rows"] += 1
     
+    # Gestion des Potential Miss / Missing pour extraction séparée
+    status = review_status.get(idx, "OK")
+    if status == "MISSING":
+        stats["skipped_missing"] += 1
+        continue
+    elif status == "POTENTIAL_MISS":
+        stats["potential_misses"] += 1
+        potential_misses_rows.append(row)
+        continue
+
     lock_reason = row.get("Lock reason", "")
     parsed = parse_lock_reason(lock_reason, ifs_requirements, row_index=idx)
     
@@ -203,10 +231,20 @@ for idx, row in df.iterrows():
         parsed_entries.append(entry)
 
 print(f"  -> Lignes avec exigences parsees: {stats['rows_with_parsed']}/{stats['total_rows']}")
+print(f"  -> Lignes sautees (MISSING): {stats['skipped_missing']}")
+print(f"  -> Lignes collectees pour revue (POTENTIAL_MISS): {stats['potential_misses']}")
 print(f"  -> Total entrees generatees: {stats['total_reqs']}")
+
+# Sauvegarder les Potential Misses pour revue manuelle
+if potential_misses_rows:
+    pm_df = pd.DataFrame(potential_misses_rows)
+    pm_path = DATA_DIR / "potential_misses_for_review.csv"
+    pm_df.to_csv(pm_path, index=False, encoding="utf-8-sig")
+    print(f"  -> {len(potential_misses_rows)} cas potentiels sauvegardes dans {pm_path}")
 
 # Compter les sévérités
 severity_counts = Counter([e["severity"] for e in parsed_entries])
+# ... (le reste de la normalisation et sauvegarde)
 print(f"  → Répartition sévérités: {dict(severity_counts)}")
 
 # ============================================================
