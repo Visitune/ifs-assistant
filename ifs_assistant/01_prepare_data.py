@@ -69,15 +69,38 @@ df = df[df["Standard"].str.contains("IFS Food", case=False, na=False)]
 print(f"  -> {len(df)} lignes IFS Food")
 
 # ============================================================
-# 2. Parser le Lock reason avec regex amlioré
+# 2. Parser le Lock reason avec regex amélioré et Surcharge (Override)
 # ============================================================
 print("\n=== Étape 2: Parsing du Lock reason ===")
 
-def parse_lock_reason(lock_reason, ifs_numbers):
+# Charger les corrections manuelles si elles existent
+OVERRIDE_PATH = Path("mapping_corrected.csv")
+overrides = {}
+if OVERRIDE_PATH.exists():
+    print(f"  -> Chargement des surcharges depuis {OVERRIDE_PATH}...")
+    df_over = pd.read_csv(OVERRIDE_PATH)
+    # On crée un mapping index -> exigence(s)
+    for _, r in df_over.iterrows():
+        if pd.notna(r["Corrected_Requirement"]) and str(r["Corrected_Requirement"]).strip() != "" and str(r["Corrected_Requirement"]).upper() != "AUCUNE":
+            overrides[int(r["Original_Index"])] = str(r["Corrected_Requirement"])
+    print(f"     ({len(overrides)} surcharges actives)")
+
+def parse_lock_reason(lock_reason, ifs_numbers, row_index=None):
     """
-    Parse le champ Lock reason pour extraire les exigences.
-    Version améliorée : recherche exhaustive des numéros et sévérités.
+    Parse le champ Lock reason. 
+    Priorise le dictionnaire de surcharge si row_index est fourni.
     """
+    if row_index is not None and row_index in overrides:
+        # Utiliser la surcharge
+        req_numbers = [n.strip() for n in overrides[row_index].split(",")]
+        # On valide quand même que les numéros existent dans le référentiel
+        valid_nums = [n for n in req_numbers if n in ifs_numbers]
+        if valid_nums:
+            results = []
+            for n in valid_nums:
+                results.append({"req_number": n, "severity": "Major", "nc_text": str(lock_reason)})
+            return results
+
     if pd.isna(lock_reason):
         return []
     
@@ -109,8 +132,7 @@ def parse_lock_reason(lock_reason, ifs_numbers):
             if sev_raw in ["KO", "D"]: severity = "KO"
             else: severity = "Major"
 
-        # Tenter d'isoler le texte de la NC (jusqu'à la prochaine exigence ou fin)
-        # On prend une fenêtre large par défaut
+        # Tenter d'isoler le texte de la NC
         nc_text = text.strip()
         
         results.append({
@@ -131,7 +153,7 @@ for idx, row in df.iterrows():
     stats["total_rows"] += 1
     
     lock_reason = row.get("Lock reason", "")
-    parsed = parse_lock_reason(lock_reason, ifs_requirements)
+    parsed = parse_lock_reason(lock_reason, ifs_requirements, row_index=idx)
     
     if parsed:
         stats["rows_with_parsed"] += 1
